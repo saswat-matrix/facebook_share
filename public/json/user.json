@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "64da84c8edd7475f2a0f5882"
+  },
+  "fname": "Sparkhub",
+  "lname": "Super Admin",
+  "phone_code": "971",
+  "country_code_iso2": "AE",
+  "country_code_iso3": "UAE",
+  "mobile": "043219399",
+  "email": "sparkhub@mailinator.com",
+  "username": "sparkhub",
+  "image": "u-superadmin-1692044920-64da84c8edd7475f2a0f5882.png",
+  "password": "$2y$10$gzGrJ.puEOelOLitFHlxAeXGu4rY5oizhkVvMNM.FzpJHPGpG/nIS",
+  "timezone": null,
+  "city": "Dubai",
+  "address": null,
+  "postal_code": null,
+  "dob": null,
+  "language": "en",
+  "email_activation_code": null,
+  "password_reset_code": null,
+  "type": "s",
+  "parent_type": null,
+  "registration_type": "n",
+  "role_ids": [],
+  "status": "a",
+  "is_login": "n",
+  "email_verified": "y",
+  "mobile_verified": "n",
+  "is_ban": "n",
+  "approved_by_admin": "n",
+  "approver_admin": null,
+  "created_by": null,
+  "remember_token": "eyJpdiI6IkVQRHNTWlRzV3RaQXpqZkNnbWhXb0E9PSIsInZhbHVlIjoia2ZROWdVWkUvYlRrL2VVaTRvSmhlRTRub2pmQjJIZ2x2QnZlWmdERWJVSXFtT1FlS2JrZW9QQTFmRVdnalNaZlRHaVNRL1l3Vkk0SkpEREdHZ2VNUEE9PSIsIm1hYyI6ImQyNWNkMTlmZDQ3ZWIwZDhhYzBiMmZhYzcxYmJhMzhmMjZlNGVlZDMyNmE0NzJiM2I1MmI2MjAwM2M1ZDE3ZDMiLCJ0YWciOiIifQ==",
+  "guid": "XLJO-WCQN-LGAH-CRSF",
+  "device_type": "w",
+  "device_id": null,
+  "last_login": null,
+  "created_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "modified_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "email_verified_at": null,
+  "mobile_verified_at": null,
+  "approved_by_admin_at": null,
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-18T19:25:47.603Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:20.977Z"
+  }
+}]

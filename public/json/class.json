@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "65ba93260b7934a5100cafc2"
+  },
+  "title": "Camelia",
+  "rules": "Demo Rules",
+  "class_category_id": {
+    "$oid": "65ba9274273a97a1e105ef42"
+  },
+  "teachers": [
+    {
+      "$oid": "64ec8034f093c390860953f2"
+    },
+    {
+      "$oid": "64ec80b87d6cb17fe4022152"
+    }
+  ],
+  "status": "a",
+  "created_by": {
+    "$oid": "64da84c8edd7475f2a0f5882"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-19T09:08:40.078Z"
+  },
+  "created_at": {
+    "$date": "2024-01-31T18:36:22.485Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65ba934475663cae550a2e42"
+  },
+  "title": "Rose",
+  "rules": "Demo Rules",
+  "class_category_id": {
+    "$oid": "65ba9275273a97a1e105ef45"
+  },
+  "teachers": [
+    {
+      "$oid": "64ec80ceb2492a49850634f2"
+    },
+    {
+      "$oid": "64ec80f1e3a9a2dd91007882"
+    },
+    {
+      "$oid": "64ec810d0cf4e19faf01f192"
+    }
+  ],
+  "status": "a",
+  "created_by": {
+    "$oid": "64da84c8edd7475f2a0f5882"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-01-31T18:36:52.947Z"
+  },
+  "created_at": {
+    "$date": "2024-01-31T18:36:52.947Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c093a75106612ca7013b72"
+  },
+  "title": "Daisy",
+  "rules": "Demo Rules",
+  "class_category_id": {
+    "$oid": "65ba9275273a97a1e105ef48"
+  },
+  "teachers": [
+    {
+      "$oid": "64ec80ceb2492a49850634f2"
+    }
+  ],
+  "status": "a",
+  "created_by": {
+    "$oid": "64da84c8edd7475f2a0f5882"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-19T09:06:35.705Z"
+  },
+  "created_at": {
+    "$date": "2024-02-05T07:52:07.466Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65c09447616c93bee10d0102"
+  },
+  "title": "Gardenia",
+  "rules": "Demo Rules",
+  "class_category_id": {
+    "$oid": "65ba9275273a97a1e105ef48"
+  },
+  "teachers": [
+    {
+      "$oid": "65c09426d21aff195b08cb02"
+    }
+  ],
+  "status": "a",
+  "created_by": {
+    "$oid": "64da84c8edd7475f2a0f5882"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-19T09:07:42.763Z"
+  },
+  "created_at": {
+    "$date": "2024-02-05T07:54:47.761Z"
+  }
+}]

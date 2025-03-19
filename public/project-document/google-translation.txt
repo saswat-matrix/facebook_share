@@ -1,0 +1,5 @@
+https://artisansweb.net/dynamically-translate-text-using-google-translation-api-in-php/
+
+https://translatepress.com/docs/automatic-translation/generate-google-api-key/
+
+https://stackoverflow.com/questions/4640378/translate-a-php-string-using-google-translator-api

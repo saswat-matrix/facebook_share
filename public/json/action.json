@@ -1,0 +1,53 @@
+[
+  {
+    "_id": {
+      "$oid": "64da84c9edd7475f2a0f5892"
+    },
+    "title": "read",
+    "display_title": "Read",
+    "display_title_fr": "Lire",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:47:21.556Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:47:21.556Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da84c9edd7475f2a0f5895"
+    },
+    "title": "write",
+    "display_title": "Write",
+    "display_title_fr": "Écrire",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:47:21.651Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:47:21.651Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da84c9edd7475f2a0f5898"
+    },
+    "title": "create",
+    "display_title": "Create",
+    "display_title_fr": "Créer",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:47:21.743Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:47:21.743Z"
+    }
+  }
+]

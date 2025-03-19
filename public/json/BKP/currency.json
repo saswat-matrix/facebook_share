@@ -1,0 +1,1592 @@
+[
+  {
+    "name": "Afghanistan Afghani",
+    "code": "AFN",
+    "symbol": "AfN",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Albanian Lek",
+    "code": "ALL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Algerian Dinar",
+    "code": "DZD",
+    "symbol": "NA",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "US Dollar",
+    "code": "USD",
+    "symbol": "US$",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Euro",
+    "code": "EUR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Angolan Kwanza",
+    "code": "AOA",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "East Caribbean Dollar",
+    "code": "XCD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Argentine Peso",
+    "code": "ARS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Armenian Dram",
+    "code": "AMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Aruban Guilder",
+    "code": "AWG",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Australian Dollar",
+    "code": "AUD",
+    "symbol": "Au$",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Azerbaijan New Manat",
+    "code": "AZN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Bahamian Dollar",
+    "code": "BSD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Bahraini Dinar",
+    "code": "BHD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Bangladeshi Taka",
+    "code": "BDT",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Barbados Dollar",
+    "code": "BBD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Belarussian Ruble",
+    "code": "BYR",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Belize Dollar",
+    "code": "BZD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "CFA Franc BCEAO",
+    "code": "XOF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Bermudian Dollar",
+    "code": "BMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Bhutan Ngultrum",
+    "code": "BTN",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Boliviano",
+    "code": "BOB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Marka",
+    "code": "BAM",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Botswana Pula",
+    "code": "BWP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Norwegian Krone",
+    "code": "NOK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Brazilian Real",
+    "code": "BRL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Brunei Dollar",
+    "code": "BND",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Bulgarian Lev",
+    "code": "BGN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Burundi Franc",
+    "code": "BIF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Kampuchean Riel",
+    "code": "KHR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "CFA Franc BEAC",
+    "code": "XAF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Canadian Dollar",
+    "code": "CAD",
+    "symbol": "C($)",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Cape Verde Escudo",
+    "code": "CVE",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Cayman Islands Dollar",
+    "code": "KYD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Chilean Peso",
+    "code": "CLP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Yuan Renminbi",
+    "code": "CNY",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Colombian Peso",
+    "code": "COP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Comoros Franc",
+    "code": "KMF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Francs",
+    "code": "CDF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "New Zealand Dollar",
+    "code": "NZD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Costa Rican Colon",
+    "code": "CRC",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Croatian Kuna",
+    "code": "HRK",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Cuban Peso",
+    "code": "CUP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Czech Koruna",
+    "code": "CZK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Danish Krone",
+    "code": "DKK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Djibouti Franc",
+    "code": "DJF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Dominican Peso",
+    "code": "DOP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "N/A",
+    "code": "N/A",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Ecuador Sucre",
+    "code": "ECS",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Egyptian Pound",
+    "code": "EGP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "El Salvador Colon",
+    "code": "SVC",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Eritrean Nakfa",
+    "code": "ERN",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Ethiopian Birr",
+    "code": "ETB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Falkland Islands Pound",
+    "code": "FKP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Fiji Dollar",
+    "code": "FJD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "CFP Franc",
+    "code": "XPF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Gambian Dalasi",
+    "code": "GMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Georgian Lari",
+    "code": "GEL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Ghanaian Cedi",
+    "code": "GHS",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Gibraltar Pound",
+    "code": "GIP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Guatemalan Quetzal",
+    "code": "QTQ",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Pound Sterling",
+    "code": "GGP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Guinea Franc",
+    "code": "GNF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Guinea-Bissau Peso",
+    "code": "GWP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Guyana Dollar",
+    "code": "GYD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Haitian Gourde",
+    "code": "HTG",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Honduran Lempira",
+    "code": "HNL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Hong Kong Dollar",
+    "code": "HKD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Hungarian Forint",
+    "code": "HUF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Iceland Krona",
+    "code": "ISK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Indian Rupee",
+    "code": "INR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Indonesian Rupiah",
+    "code": "IDR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Iranian Rial",
+    "code": "IRR",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Iraqi Dinar",
+    "code": "IQD",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Israeli New Shekel",
+    "code": "ILS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Jamaican Dollar",
+    "code": "JMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Japanese Yen",
+    "code": "JPY",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Pound Sterling",
+    "code": "GBP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Jordanian Dinar",
+    "code": "JOD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Kazakhstan Tenge",
+    "code": "KZT",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Kenyan Shilling",
+    "code": "KES",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "North Korean Won",
+    "code": "KPW",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Korean Won",
+    "code": "KRW",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Kuwaiti Dinar",
+    "code": "KWD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Som",
+    "code": "KGS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Lao Kip",
+    "code": "LAK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Latvian Lats",
+    "code": "LVL",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Lebanese Pound",
+    "code": "LBP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Lesotho Loti",
+    "code": "LSL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Liberian Dollar",
+    "code": "LRD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Libyan Dinar",
+    "code": "LYD",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Swiss Franc",
+    "code": "CHF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Lithuanian Litas",
+    "code": "LTL",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Macau Pataca",
+    "code": "MOP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Malagasy Franc",
+    "code": "MGF",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Malawi Kwacha",
+    "code": "MWK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Malaysian Ringgit",
+    "code": "MYR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Maldive Rufiyaa",
+    "code": "MVR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Mauritanian Ouguiya",
+    "code": "MRO",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Mauritius Rupee",
+    "code": "MUR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Mexican Nuevo Peso",
+    "code": "MXN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Moldovan Leu",
+    "code": "MDL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Mongolian Tugrik",
+    "code": "MNT",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Moroccan Dirham",
+    "code": "MAD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Mozambique Metical",
+    "code": "MZN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Myanmar Kyat",
+    "code": "MMK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Namibian Dollar",
+    "code": "NAD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Nepalese Rupee",
+    "code": "NPR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Nicaraguan Cordoba Oro",
+    "code": "NIO",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Nigerian Naira",
+    "code": "NGN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Omani Rial",
+    "code": "OMR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Pakistan Rupee",
+    "code": "PKR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Panamanian Balboa",
+    "code": "PAB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Papua New Guinea Kina",
+    "code": "PGK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Paraguay Guarani",
+    "code": "PYG",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Peruvian Nuevo Sol",
+    "code": "PEN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Philippine Peso",
+    "code": "PHP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Polish Zloty",
+    "code": "PLN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Qatari Rial",
+    "code": "QAR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Romanian New Leu",
+    "code": "RON",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Russian Ruble",
+    "code": "RUB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Rwanda Franc",
+    "code": "RWF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "St. Helena Pound",
+    "code": "SHP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Samoan Tala",
+    "code": "WST",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Dobra",
+    "code": "STD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Saudi Riyal",
+    "code": "SAR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Dinar",
+    "code": "RSD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Seychelles Rupee",
+    "code": "SCR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Sierra Leone Leone",
+    "code": "SLL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Singapore Dollar",
+    "code": "SGD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Solomon Islands Dollar",
+    "code": "SBD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Somali Shilling",
+    "code": "SOS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "South African Rand",
+    "code": "ZAR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "South Sudan Pound",
+    "code": "SSP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Sri Lanka Rupee",
+    "code": "LKR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Sudanese Pound",
+    "code": "SDG",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Surinam Dollar",
+    "code": "SRD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Swedish Krona",
+    "code": "SEK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Syrian Pound",
+    "code": "SYP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Taiwan Dollar",
+    "code": "TWD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Tajik Somoni",
+    "code": "TJS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Tanzanian Shilling",
+    "code": "TZS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Thai Baht",
+    "code": "THB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Tongan Pa'anga",
+    "code": "TOP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Trinidad and Tobago Dollar",
+    "code": "TTD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Tunisian Dollar",
+    "code": "TND",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Turkish Lira",
+    "code": "TRY",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Manat",
+    "code": "TMT",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Uganda Shilling",
+    "code": "UGX",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Ukraine Hryvnia",
+    "code": "UAH",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Arab Emirates Dirham",
+    "code": "AED",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Uruguayan Peso",
+    "code": "UYU",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Uzbekistan Sum",
+    "code": "UZS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Vanuatu Vatu",
+    "code": "VUV",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Venezuelan Bolivar",
+    "code": "VEF",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Vietnamese Dong",
+    "code": "VND",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Yemeni Rial",
+    "code": "YER",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Zambian Kwacha",
+    "code": "ZMW",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  },
+  {
+    "name": "Zimbabwe Dollar",
+    "code": "ZWD",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "isActive": true,
+    "isDelete": false
+  }
+]

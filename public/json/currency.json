@@ -1,0 +1,3182 @@
+[
+  {
+    "_id": {
+      "$oid": "64da8517edd7475f2a0f5b8c"
+    },
+    "name": "Afghanistan Afghani",
+    "name_fr": "Afghanistan Afghani",
+    "code": "AFN",
+    "symbol": "AfN",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:39.401Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:39.401Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8517edd7475f2a0f5b8f"
+    },
+    "name": "Albanian Lek",
+    "name_fr": "Albanie Lec",
+    "code": "ALL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:39.520Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:39.520Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8517edd7475f2a0f5b92"
+    },
+    "name": "Algerian Dinar",
+    "name_fr": "Dinar algérien",
+    "code": "DZD",
+    "symbol": "NA",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:39.628Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:39.628Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8517edd7475f2a0f5b95"
+    },
+    "name": "US Dollar",
+    "name_fr": "Dollars américain",
+    "code": "USD",
+    "symbol": "US$",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:39.721Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:39.721Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8517edd7475f2a0f5b98"
+    },
+    "name": "Euro",
+    "name_fr": "euro",
+    "code": "EUR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:39.829Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:39.829Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8517edd7475f2a0f5b9b"
+    },
+    "name": "Angolan Kwanza",
+    "name_fr": "Kwanza angolais",
+    "code": "AOA",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:39.945Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:39.945Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5b9e"
+    },
+    "name": "East Caribbean Dollar",
+    "name_fr": "Dollar des Caraïbes orientales",
+    "code": "XCD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.051Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.051Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5ba1"
+    },
+    "name": "Argentine Peso",
+    "name_fr": "Peso argentin",
+    "code": "ARS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.138Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.138Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5ba4"
+    },
+    "name": "Armenian Dram",
+    "name_fr": "Dram arménien",
+    "code": "AMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.242Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.242Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5ba7"
+    },
+    "name": "Aruban Guilder",
+    "name_fr": "Florin d'Aruba",
+    "code": "AWG",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.329Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.329Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5baa"
+    },
+    "name": "Australian Dollar",
+    "name_fr": "Dollar australien",
+    "code": "AUD",
+    "symbol": "Au$",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.423Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.423Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5bad"
+    },
+    "name": "Azerbaijan New Manat",
+    "name_fr": "Nouveau Manat d'Azerbaïdjan",
+    "code": "AZN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.512Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.512Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5bb0"
+    },
+    "name": "Bahamian Dollar",
+    "name_fr": "Dollar bahaméen",
+    "code": "BSD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.607Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.607Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5bb3"
+    },
+    "name": "Bahraini Dinar",
+    "name_fr": "Dinar bahreïnien",
+    "code": "BHD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.723Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.723Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5bb6"
+    },
+    "name": "Bangladeshi Taka",
+    "name_fr": "Taka, disciple d'Itaga",
+    "code": "BDT",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.821Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.821Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8518edd7475f2a0f5bb9"
+    },
+    "name": "Barbados Dollar",
+    "name_fr": "Dollar de la Barbade",
+    "code": "BBD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:40.909Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:40.909Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bbc"
+    },
+    "name": "Belarussian Ruble",
+    "name_fr": "Rouble biélorusse",
+    "code": "BYR",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.046Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.046Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bbf"
+    },
+    "name": "Belize Dollar",
+    "name_fr": "Dollar bélizien",
+    "code": "BZD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.137Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.137Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bc2"
+    },
+    "name": "CFA Franc BCEAO",
+    "name_fr": "Franc CFA BCEAO",
+    "code": "XOF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.251Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.251Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bc5"
+    },
+    "name": "Bermudian Dollar",
+    "name_fr": "Dollar bermudien",
+    "code": "BMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.383Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.383Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bc8"
+    },
+    "name": "Bhutan Ngultrum",
+    "name_fr": "Bhoutan Ngultrum",
+    "code": "BTN",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.483Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.483Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bcb"
+    },
+    "name": "Boliviano",
+    "name_fr": "bolivien",
+    "code": "BOB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.646Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.646Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bce"
+    },
+    "name": "Marka",
+    "name_fr": "Donc",
+    "code": "BAM",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.736Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.736Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bd1"
+    },
+    "name": "Botswana Pula",
+    "name_fr": "Pula du Botswana",
+    "code": "BWP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.832Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.832Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8519edd7475f2a0f5bd4"
+    },
+    "name": "Norwegian Krone",
+    "name_fr": "Couronne norvégienne",
+    "code": "NOK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:41.926Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:41.926Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5bd7"
+    },
+    "name": "Brazilian Real",
+    "name_fr": "Réal brésilien",
+    "code": "BRL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.028Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.028Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5bda"
+    },
+    "name": "Brunei Dollar",
+    "name_fr": "Dollar brunéien",
+    "code": "BND",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.124Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.124Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5bdd"
+    },
+    "name": "Bulgarian Lev",
+    "name_fr": "Lev bulgare",
+    "code": "BGN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.226Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.226Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5be0"
+    },
+    "name": "Burundi Franc",
+    "name_fr": "Franc burundais",
+    "code": "BIF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.338Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.338Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5be3"
+    },
+    "name": "Kampuchean Riel",
+    "name_fr": "Riel cambodgien",
+    "code": "KHR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.429Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.429Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5be6"
+    },
+    "name": "CFA Franc BEAC",
+    "name_fr": "Franc CFA BEAC",
+    "code": "XAF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.546Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.546Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5be9"
+    },
+    "name": "Canadian Dollar",
+    "name_fr": "Dollar canadien",
+    "code": "CAD",
+    "symbol": "C($)",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.658Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.658Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5bec"
+    },
+    "name": "Cape Verde Escudo",
+    "name_fr": "Bouclier du Cap-Vert",
+    "code": "CVE",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.771Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.771Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851aedd7475f2a0f5bef"
+    },
+    "name": "Cayman Islands Dollar",
+    "name_fr": "Dollar des îles Caïmans",
+    "code": "KYD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:42.901Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:42.901Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5bf2"
+    },
+    "name": "Chilean Peso",
+    "name_fr": "Peso chilien",
+    "code": "CLP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.012Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.012Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5bf5"
+    },
+    "name": "Yuan Renminbi",
+    "name_fr": "yuans rhum yuans",
+    "code": "CNY",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.104Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.104Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5bf8"
+    },
+    "name": "Colombian Peso",
+    "name_fr": "Peso colombien",
+    "code": "COP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.249Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.249Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5bfb"
+    },
+    "name": "Comoros Franc",
+    "name_fr": "Franc comorien",
+    "code": "KMF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.400Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.400Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5bfe"
+    },
+    "name": "Francs",
+    "name_fr": "Francs",
+    "code": "CDF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.506Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.506Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5c01"
+    },
+    "name": "New Zealand Dollar",
+    "name_fr": "Dollar néo-zélandais",
+    "code": "NZD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.647Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.647Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5c04"
+    },
+    "name": "Costa Rican Colon",
+    "name_fr": "Colon costaricain",
+    "code": "CRC",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.778Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.778Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851bedd7475f2a0f5c07"
+    },
+    "name": "Croatian Kuna",
+    "name_fr": "Kuna croate",
+    "code": "HRK",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:43.924Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:43.924Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c0a"
+    },
+    "name": "Cuban Peso",
+    "name_fr": "Peso Cubain",
+    "code": "CUP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.043Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.043Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c0d"
+    },
+    "name": "Czech Koruna",
+    "name_fr": "Couronne tchèque",
+    "code": "CZK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.146Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.146Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c10"
+    },
+    "name": "Danish Krone",
+    "name_fr": "Couronne danoise",
+    "code": "DKK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.240Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.240Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c13"
+    },
+    "name": "Djibouti Franc",
+    "name_fr": "Franc djiboutien",
+    "code": "DJF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.353Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.353Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c16"
+    },
+    "name": "Dominican Peso",
+    "name_fr": "Peso Dominicain",
+    "code": "DOP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.469Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.469Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c19"
+    },
+    "name": "N/A",
+    "name_fr": "N / A",
+    "code": "N/A",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.557Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.557Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c1c"
+    },
+    "name": "Ecuador Sucre",
+    "name_fr": "Équateur Sucre",
+    "code": "ECS",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.654Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.654Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c1f"
+    },
+    "name": "Egyptian Pound",
+    "name_fr": "Livre égyptienne",
+    "code": "EGP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.770Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.770Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c22"
+    },
+    "name": "El Salvador Colon",
+    "name_fr": "Colon du Salvador",
+    "code": "SVC",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.860Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.860Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851cedd7475f2a0f5c25"
+    },
+    "name": "Eritrean Nakfa",
+    "name_fr": "Nakfa érythréen",
+    "code": "ERN",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:44.976Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:44.976Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c28"
+    },
+    "name": "Ethiopian Birr",
+    "name_fr": "Birr éthiopien",
+    "code": "ETB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.081Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.081Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c2b"
+    },
+    "name": "Falkland Islands Pound",
+    "name_fr": "Livre des Îles Falkland",
+    "code": "FKP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.174Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.174Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c2e"
+    },
+    "name": "Fiji Dollar",
+    "name_fr": "dollar de Fidji",
+    "code": "FJD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.275Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.275Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c31"
+    },
+    "name": "CFP Franc",
+    "name_fr": "Franc CFP",
+    "code": "XPF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.373Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.373Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c34"
+    },
+    "name": "Gambian Dalasi",
+    "name_fr": "Dalasi gambien",
+    "code": "GMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.507Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.507Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c37"
+    },
+    "name": "Georgian Lari",
+    "name_fr": "Lari géorgien",
+    "code": "GEL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.679Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.679Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c3a"
+    },
+    "name": "Ghanaian Cedi",
+    "name_fr": "Cédi ghanéen",
+    "code": "GHS",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.785Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.785Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c3d"
+    },
+    "name": "Gibraltar Pound",
+    "name_fr": "Livre de Gibraltar",
+    "code": "GIP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.901Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.901Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851dedd7475f2a0f5c40"
+    },
+    "name": "Guatemalan Quetzal",
+    "name_fr": "Quetzal guatémaltèque",
+    "code": "QTQ",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:45.994Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:45.994Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c43"
+    },
+    "name": "Pound Sterling",
+    "name_fr": "Livre sterling",
+    "code": "GGP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.091Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.091Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c46"
+    },
+    "name": "Guinea Franc",
+    "name_fr": "Franc guinéen",
+    "code": "GNF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.198Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.198Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c49"
+    },
+    "name": "Guinea-Bissau Peso",
+    "name_fr": "Peso de Guinée-Bissau",
+    "code": "GWP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.308Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.308Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c4c"
+    },
+    "name": "Guyana Dollar",
+    "name_fr": "Dollar guyanais",
+    "code": "GYD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.445Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.445Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c4f"
+    },
+    "name": "Haitian Gourde",
+    "name_fr": "Haitian Gourde",
+    "code": "HTG",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.541Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.541Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c52"
+    },
+    "name": "Honduran Lempira",
+    "name_fr": "Lempira hondurien",
+    "code": "HNL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.631Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.631Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c55"
+    },
+    "name": "Hong Kong Dollar",
+    "name_fr": "Dollar de Hong Kong",
+    "code": "HKD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.721Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.721Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c58"
+    },
+    "name": "Hungarian Forint",
+    "name_fr": "Forint hongrois",
+    "code": "HUF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.817Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.817Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851eedd7475f2a0f5c5b"
+    },
+    "name": "Iceland Krona",
+    "name_fr": "Couronne islandaise",
+    "code": "ISK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:46.908Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:46.908Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c5e"
+    },
+    "name": "Indian Rupee",
+    "name_fr": "Roupie indienne",
+    "code": "INR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.004Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.004Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c61"
+    },
+    "name": "Indonesian Rupiah",
+    "name_fr": "Rupiah indonésienne",
+    "code": "IDR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.128Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.128Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c64"
+    },
+    "name": "Iranian Rial",
+    "name_fr": "Rial iranien",
+    "code": "IRR",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.225Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.225Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c67"
+    },
+    "name": "Iraqi Dinar",
+    "name_fr": "Dinar irakien",
+    "code": "IQD",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.330Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.330Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c6a"
+    },
+    "name": "Israeli New Shekel",
+    "name_fr": "Nouveau shekel israélien",
+    "code": "ILS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.441Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.441Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c6d"
+    },
+    "name": "Jamaican Dollar",
+    "name_fr": "Dollar jamaïcain",
+    "code": "JMD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.536Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.536Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c70"
+    },
+    "name": "Japanese Yen",
+    "name_fr": "Yen japonais",
+    "code": "JPY",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.623Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.623Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c73"
+    },
+    "name": "Pound Sterling",
+    "name_fr": "Livre sterling",
+    "code": "GBP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.715Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.715Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c76"
+    },
+    "name": "Jordanian Dinar",
+    "name_fr": "Dinar jordanien",
+    "code": "JOD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.824Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.824Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da851fedd7475f2a0f5c79"
+    },
+    "name": "Kazakhstan Tenge",
+    "name_fr": "Kazakhstan teng",
+    "code": "KZT",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:47.940Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:47.940Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c7c"
+    },
+    "name": "Kenyan Shilling",
+    "name_fr": "Shilling kenyan",
+    "code": "KES",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.075Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.075Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c7f"
+    },
+    "name": "North Korean Won",
+    "name_fr": "Won nord-coréen",
+    "code": "KPW",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.166Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.166Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c82"
+    },
+    "name": "Korean Won",
+    "name_fr": "Won coréen",
+    "code": "KRW",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.261Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.261Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c85"
+    },
+    "name": "Kuwaiti Dinar",
+    "name_fr": "Dinar koweïtien",
+    "code": "KWD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.378Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.378Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c88"
+    },
+    "name": "Som",
+    "name_fr": "Comme",
+    "code": "KGS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.493Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.493Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c8b"
+    },
+    "name": "Lao Kip",
+    "name_fr": "Lao Kip",
+    "code": "LAK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.589Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.589Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c8e"
+    },
+    "name": "Latvian Lats",
+    "name_fr": "Lats lettons",
+    "code": "LVL",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.687Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.687Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c91"
+    },
+    "name": "Lebanese Pound",
+    "name_fr": "Livre libanaise",
+    "code": "LBP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.801Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.801Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8520edd7475f2a0f5c94"
+    },
+    "name": "Lesotho Loti",
+    "name_fr": "Lot du Lesotho",
+    "code": "LSL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:48.909Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:48.909Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5c97"
+    },
+    "name": "Liberian Dollar",
+    "name_fr": "Dollar libérien",
+    "code": "LRD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.011Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.011Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5c9a"
+    },
+    "name": "Libyan Dinar",
+    "name_fr": "Dinar libyen",
+    "code": "LYD",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.120Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.120Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5c9d"
+    },
+    "name": "Swiss Franc",
+    "name_fr": "Franc suisse",
+    "code": "CHF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.212Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.212Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5ca0"
+    },
+    "name": "Lithuanian Litas",
+    "name_fr": "Litas lituanien",
+    "code": "LTL",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.303Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.303Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5ca3"
+    },
+    "name": "Macau Pataca",
+    "name_fr": "Pataca de Macao",
+    "code": "MOP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.403Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.403Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5ca6"
+    },
+    "name": "Malagasy Franc",
+    "name_fr": "Franc malgache",
+    "code": "MGF",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.553Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.553Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5ca9"
+    },
+    "name": "Malawi Kwacha",
+    "name_fr": "Kwacha du Malawi",
+    "code": "MWK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.666Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.666Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5cac"
+    },
+    "name": "Malaysian Ringgit",
+    "name_fr": "cloche malaisienne",
+    "code": "MYR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.788Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.788Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5caf"
+    },
+    "name": "Maldive Rufiyaa",
+    "name_fr": "Rufiyaa maldivienne",
+    "code": "MVR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.888Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.888Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8521edd7475f2a0f5cb2"
+    },
+    "name": "Mauritanian Ouguiya",
+    "name_fr": "Ouguiya mauritanien",
+    "code": "MRO",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:49.981Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:49.981Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cb5"
+    },
+    "name": "Mauritius Rupee",
+    "name_fr": "Roupie mauricienne",
+    "code": "MUR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.076Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.076Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cb8"
+    },
+    "name": "Mexican Nuevo Peso",
+    "name_fr": "Nouveau peso mexicain",
+    "code": "MXN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.171Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.171Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cbb"
+    },
+    "name": "Moldovan Leu",
+    "name_fr": "Lion moldave",
+    "code": "MDL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.332Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.332Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cbe"
+    },
+    "name": "Mongolian Tugrik",
+    "name_fr": "Tugrik mongol",
+    "code": "MNT",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.443Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.443Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cc1"
+    },
+    "name": "Moroccan Dirham",
+    "name_fr": "Dirham marocain",
+    "code": "MAD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.534Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.534Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cc4"
+    },
+    "name": "Mozambique Metical",
+    "name_fr": "Metical du Mozambique",
+    "code": "MZN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.629Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.629Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cc7"
+    },
+    "name": "Myanmar Kyat",
+    "name_fr": "Kyat du Myanmar",
+    "code": "MMK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.755Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.755Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5cca"
+    },
+    "name": "Namibian Dollar",
+    "name_fr": "Dollar namibien",
+    "code": "NAD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.864Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.864Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8522edd7475f2a0f5ccd"
+    },
+    "name": "Nepalese Rupee",
+    "name_fr": "Roupie népalaise",
+    "code": "NPR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:50.964Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:50.964Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5cd0"
+    },
+    "name": "Nicaraguan Cordoba Oro",
+    "name_fr": "Or Cordoue du Nicaragua",
+    "code": "NIO",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.063Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.063Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5cd3"
+    },
+    "name": "Nigerian Naira",
+    "name_fr": "Naira nigérian",
+    "code": "NGN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.193Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.193Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5cd6"
+    },
+    "name": "Omani Rial",
+    "name_fr": "Rial d'Oman",
+    "code": "OMR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.290Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.290Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5cd9"
+    },
+    "name": "Pakistan Rupee",
+    "name_fr": "Roupie pakistanaise",
+    "code": "PKR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.383Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.383Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5cdc"
+    },
+    "name": "Panamanian Balboa",
+    "name_fr": "Balboa panaméen",
+    "code": "PAB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.474Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.474Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5cdf"
+    },
+    "name": "Papua New Guinea Kina",
+    "name_fr": "Papouasie-Nouvelle-Guinée Kina",
+    "code": "PGK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.563Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5ce2"
+    },
+    "name": "Paraguay Guarani",
+    "name_fr": "Paraguay Garanti",
+    "code": "PYG",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.670Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.670Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5ce5"
+    },
+    "name": "Peruvian Nuevo Sol",
+    "name_fr": "Nuevo Sol péruvien",
+    "code": "PEN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.780Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.780Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5ce8"
+    },
+    "name": "Philippine Peso",
+    "name_fr": "Peso philippin",
+    "code": "PHP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.903Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.903Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8523edd7475f2a0f5ceb"
+    },
+    "name": "Polish Zloty",
+    "name_fr": "Zloty polonais",
+    "code": "PLN",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:51.998Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:51.998Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5cee"
+    },
+    "name": "Qatari Rial",
+    "name_fr": "Rial du Qatar",
+    "code": "QAR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.107Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.107Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5cf1"
+    },
+    "name": "Romanian New Leu",
+    "name_fr": "Nouveau Leu roumain",
+    "code": "RON",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.223Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.223Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5cf4"
+    },
+    "name": "Russian Ruble",
+    "name_fr": "Rouble russe",
+    "code": "RUB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.314Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.314Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5cf7"
+    },
+    "name": "Rwanda Franc",
+    "name_fr": "Franc rwandais",
+    "code": "RWF",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.431Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.431Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5cfa"
+    },
+    "name": "St. Helena Pound",
+    "name_fr": "Livre de Sainte-Hélène",
+    "code": "SHP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.554Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.554Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5cfd"
+    },
+    "name": "Samoan Tala",
+    "name_fr": "Contes samoans",
+    "code": "WST",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.656Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.656Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5d00"
+    },
+    "name": "Dobra",
+    "name_fr": "Bien",
+    "code": "STD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.743Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.743Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5d03"
+    },
+    "name": "Saudi Riyal",
+    "name_fr": "riyal saoudien",
+    "code": "SAR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.847Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.847Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8524edd7475f2a0f5d06"
+    },
+    "name": "Dinar",
+    "name_fr": "Dinar",
+    "code": "RSD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:52.949Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:52.949Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d09"
+    },
+    "name": "Seychelles Rupee",
+    "name_fr": "Roupie des Seychelles",
+    "code": "SCR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.059Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.059Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d0c"
+    },
+    "name": "Sierra Leone Leone",
+    "name_fr": "Sierra Leone Léone",
+    "code": "SLL",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.154Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.154Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d0f"
+    },
+    "name": "Singapore Dollar",
+    "name_fr": "Dollar de Singapour",
+    "code": "SGD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.249Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.249Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d12"
+    },
+    "name": "Solomon Islands Dollar",
+    "name_fr": "Dollar des Îles Salomon",
+    "code": "SBD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.353Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.353Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d15"
+    },
+    "name": "Somali Shilling",
+    "name_fr": "Shilling somalien",
+    "code": "SOS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.445Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.445Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d18"
+    },
+    "name": "South African Rand",
+    "name_fr": "Rand sud-africain",
+    "code": "ZAR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.562Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.562Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d1b"
+    },
+    "name": "South Sudan Pound",
+    "name_fr": "Livre sud-soudanaise",
+    "code": "SSP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.686Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.686Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d1e"
+    },
+    "name": "Sri Lanka Rupee",
+    "name_fr": "Roupie de Sri Lanka",
+    "code": "LKR",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.795Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.795Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8525edd7475f2a0f5d21"
+    },
+    "name": "Sudanese Pound",
+    "name_fr": "Livre soudanaise",
+    "code": "SDG",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:53.942Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:53.942Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d24"
+    },
+    "name": "Surinam Dollar",
+    "name_fr": "Dollar surinamien",
+    "code": "SRD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.101Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.101Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d27"
+    },
+    "name": "Swedish Krona",
+    "name_fr": "Couronne suédoise",
+    "code": "SEK",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.208Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.208Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d2a"
+    },
+    "name": "Syrian Pound",
+    "name_fr": "Livre syrienne",
+    "code": "SYP",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.322Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.322Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d2d"
+    },
+    "name": "Taiwan Dollar",
+    "name_fr": "Dollar de Taïwan",
+    "code": "TWD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.411Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.411Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d30"
+    },
+    "name": "Tajik Somoni",
+    "name_fr": "Autres choses K Somoni",
+    "code": "TJS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.507Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.507Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d33"
+    },
+    "name": "Tanzanian Shilling",
+    "name_fr": "Shilling tanzanien",
+    "code": "TZS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.613Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.613Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d36"
+    },
+    "name": "Thai Baht",
+    "name_fr": "Baht thaïlandais",
+    "code": "THB",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.698Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.698Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d39"
+    },
+    "name": "Tongan Pa'anga",
+    "name_fr": "Pa'anga tongien",
+    "code": "TOP",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.816Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.816Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8526edd7475f2a0f5d3c"
+    },
+    "name": "Trinidad and Tobago Dollar",
+    "name_fr": "Dollar de Trinité-et-Tobago",
+    "code": "TTD",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:54.935Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:54.935Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d3f"
+    },
+    "name": "Tunisian Dollar",
+    "name_fr": "Dollar tunisien",
+    "code": "TND",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": true,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.030Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.030Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d42"
+    },
+    "name": "Turkish Lira",
+    "name_fr": "Lire turque",
+    "code": "TRY",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.122Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.122Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d45"
+    },
+    "name": "Manat",
+    "name_fr": "Manat",
+    "code": "TMT",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.214Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.214Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d48"
+    },
+    "name": "Uganda Shilling",
+    "name_fr": "Shilling ougandais",
+    "code": "UGX",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.335Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.335Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d4b"
+    },
+    "name": "Ukraine Hryvnia",
+    "name_fr": "Hryvnia ukrainienne",
+    "code": "UAH",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.451Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.451Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d4e"
+    },
+    "name": "Arab Emirates Dirham",
+    "name_fr": "Dirham des Émirats arabes unis",
+    "code": "AED",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.564Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.564Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d51"
+    },
+    "name": "Uruguayan Peso",
+    "name_fr": "Peso Uruguayen",
+    "code": "UYU",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.664Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.664Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d54"
+    },
+    "name": "Uzbekistan Sum",
+    "name_fr": "Ouzbékistan Somme",
+    "code": "UZS",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.762Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.762Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d57"
+    },
+    "name": "Vanuatu Vatu",
+    "name_fr": "Vanuatu Vatu",
+    "code": "VUV",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.860Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.860Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8527edd7475f2a0f5d5a"
+    },
+    "name": "Venezuelan Bolivar",
+    "name_fr": "Bolivar vénézuélien",
+    "code": "VEF",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:55.953Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:55.953Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8528edd7475f2a0f5d5d"
+    },
+    "name": "Vietnamese Dong",
+    "name_fr": "Dong vietnamien",
+    "code": "VND",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": true,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:56.043Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:56.043Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8528edd7475f2a0f5d60"
+    },
+    "name": "Yemeni Rial",
+    "name_fr": "Rial yéménite",
+    "code": "YER",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:56.133Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:56.133Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8528edd7475f2a0f5d63"
+    },
+    "name": "Zambian Kwacha",
+    "name_fr": "Kwacha zambien",
+    "code": "ZMW",
+    "symbol": "N/A",
+    "is_stripe_currency": true,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:56.250Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:56.250Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64da8528edd7475f2a0f5d66"
+    },
+    "name": "Zimbabwe Dollar",
+    "name_fr": "Dollar du Zimbabwe",
+    "code": "ZWD",
+    "symbol": "N/A",
+    "is_stripe_currency": false,
+    "stripe_zero_decimal": false,
+    "stripe_three_decimal": false,
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-14T19:48:56.346Z"
+    },
+    "created_at": {
+      "$date": "2023-08-14T19:48:56.346Z"
+    }
+  }
+]

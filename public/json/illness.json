@@ -1,0 +1,302 @@
+[
+  {
+    "_id": {
+      "$oid": "64e607546b9005e1d10054f2"
+    },
+    "title": "Asthma",
+    "title_fr": "Asthme",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:16.032Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:16.032Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607546b9005e1d10054f5"
+    },
+    "title": "Chicken Pox",
+    "title_fr": "Varicelle",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:16.207Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:16.207Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607546b9005e1d10054f8"
+    },
+    "title": "Diabetes",
+    "title_fr": "Diabète",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:16.350Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:16.350Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607546b9005e1d10054fb"
+    },
+    "title": "Epilepse",
+    "title_fr": "Épilepsie",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:16.457Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:16.457Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607546b9005e1d10054fe"
+    },
+    "title": "Fainting",
+    "title_fr": "Évanouissement",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:16.613Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:16.613Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607546b9005e1d1005501"
+    },
+    "title": "Frequnst Cold/Sinusitis/N1H1",
+    "title_fr": "Rhume/sinusite/N1H1 fréquents",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:16.691Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:16.691Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607546b9005e1d1005504"
+    },
+    "title": "German Measles",
+    "title_fr": "Rougeole allemande",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:16.916Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:16.916Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d1005507"
+    },
+    "title": "Heart Trouble",
+    "title_fr": "Trouble cardiaque",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.032Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.032Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d100550a"
+    },
+    "title": "Hepatitis",
+    "title_fr": "Hépatite",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.169Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.169Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d100550d"
+    },
+    "title": "Mumps",
+    "title_fr": "Oreillons",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.298Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.298Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d1005510"
+    },
+    "title": "Pneumonia",
+    "title_fr": "Pneumonie",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.411Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.411Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d1005513"
+    },
+    "title": "Poliomylitis",
+    "title_fr": "Poliomyélite",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.490Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.490Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d1005516"
+    },
+    "title": "Rheumatic Fever",
+    "title_fr": "Rhumatisme articulaire aigu",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.725Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.725Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d1005519"
+    },
+    "title": "Scarlet Fever",
+    "title_fr": "Scarlatine",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.849Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.849Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607556b9005e1d100551c"
+    },
+    "title": "Seven Day Measles (Rubeola)",
+    "title_fr": "Rougeole de sept jours (rubéole)",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:17.958Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:17.958Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607566b9005e1d100551f"
+    },
+    "title": "Sickle Cell Anaemia",
+    "title_fr": "L'anémie falciforme",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:18.109Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:18.109Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607566b9005e1d1005522"
+    },
+    "title": "Thalassemia",
+    "title_fr": "Thalassémie",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:18.244Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:18.244Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607566b9005e1d1005525"
+    },
+    "title": "Tonsillitis",
+    "title_fr": "Amygdalite",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:18.398Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:18.398Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607566b9005e1d1005528"
+    },
+    "title": "Tuberculosis",
+    "title_fr": "Tuberculose",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:18.483Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:18.483Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607566b9005e1d100552b"
+    },
+    "title": "Whooping Cough",
+    "title_fr": "Coqueluche",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:18.582Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:18.582Z"
+    }
+  }
+]

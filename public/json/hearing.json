@@ -1,0 +1,62 @@
+[
+  {
+    "_id": {
+      "$oid": "64e4af079b2255c7b4096022"
+    },
+    "title": "Website/Internet Search",
+    "title_fr": "Recherche sur site Web/Internet",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-22T12:50:15.180Z"
+    },
+    "created_at": {
+      "$date": "2023-08-22T12:50:15.180Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e4af079b2255c7b4096025"
+    },
+    "title": "Magazine",
+    "title_fr": "Revue",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-22T12:50:15.354Z"
+    },
+    "created_at": {
+      "$date": "2023-08-22T12:50:15.354Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e4af079b2255c7b4096028"
+    },
+    "title": "Newspaper",
+    "title_fr": "Journal",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-22T12:50:15.441Z"
+    },
+    "created_at": {
+      "$date": "2023-08-22T12:50:15.441Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e4af079b2255c7b409602b"
+    },
+    "title": "Other",
+    "title_fr": "Autre",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-22T12:50:15.575Z"
+    },
+    "created_at": {
+      "$date": "2023-08-22T12:50:15.575Z"
+    }
+  }
+]

@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "65bcd0b90a47b1cc550b6285"
+  },
+  "stime": "07:00",
+  "etime": "13:00",
+  "academic_year_id": {
+    "$oid": "65bcd0b90a47b1cc550b6282"
+  },
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-02T11:23:37.399Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:23:37.399Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bcd0b90a47b1cc550b6286"
+  },
+  "stime": "07:00",
+  "etime": "15:00",
+  "academic_year_id": {
+    "$oid": "65bcd0b90a47b1cc550b6282"
+  },
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-02T11:23:37.400Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:23:37.400Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bcd0b90a47b1cc550b6287"
+  },
+  "stime": "07:00",
+  "etime": "17:30",
+  "academic_year_id": {
+    "$oid": "65bcd0b90a47b1cc550b6282"
+  },
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-02T11:23:37.401Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:23:37.401Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bcd187e2e998614303adf5"
+  },
+  "stime": "07:00",
+  "etime": "13:00",
+  "academic_year_id": {
+    "$oid": "65bcd187e2e998614303adf2"
+  },
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-02T11:27:03.986Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:27:03.986Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bcd187e2e998614303adf6"
+  },
+  "stime": "07:00",
+  "etime": "15:00",
+  "academic_year_id": {
+    "$oid": "65bcd187e2e998614303adf2"
+  },
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-02T11:27:03.988Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:27:03.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bcd187e2e998614303adf7"
+  },
+  "stime": "07:00",
+  "etime": "17:30",
+  "academic_year_id": {
+    "$oid": "65bcd187e2e998614303adf2"
+  },
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-02-02T11:27:03.988Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:27:03.988Z"
+  }
+}]

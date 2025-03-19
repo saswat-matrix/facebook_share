@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "64da8528edd7475f2a0f5d69"
+  },
+  "title": "Term 1",
+  "title_fr": "Terme 1",
+  "key": "term-1",
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:48:56.471Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:48:56.471Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da8528edd7475f2a0f5d6c"
+  },
+  "title": "Term 2",
+  "title_fr": "Terme 2",
+  "key": "term-2",
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:48:56.614Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:48:56.614Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da8528edd7475f2a0f5d6f"
+  },
+  "title": "Term 3",
+  "title_fr": "Terme 3",
+  "key": "term-3",
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:48:56.727Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:48:56.727Z"
+  }
+}]

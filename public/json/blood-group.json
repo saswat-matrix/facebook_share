@@ -1,0 +1,207 @@
+[
+  {
+    "_id": {
+      "$oid": "64e607586b9005e1d100555b"
+    },
+    "title": "A+",
+    "title_fr": "A+",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:20.904Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:20.904Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607586b9005e1d100555e"
+    },
+    "title": "A-",
+    "title_fr": "A-",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:20.975Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:20.975Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d1005561"
+    },
+    "title": "B+",
+    "title_fr": "B+",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:21.048Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.048Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d1005564"
+    },
+    "title": "B-",
+    "title_fr": "B-",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:21.126Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.126Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d1005567"
+    },
+    "title": "AB+",
+    "title_fr": "AB+",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:21.221Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.221Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d100556a"
+    },
+    "title": "AB-",
+    "title_fr": "AB-",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:21.339Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.339Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d100556d"
+    },
+    "title": "O+",
+    "title_fr": "O+",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:21.429Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.429Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d1005570"
+    },
+    "title": "O-",
+    "title_fr": "O-",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-23T13:19:21.528Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.528Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d1005573"
+    },
+    "title": "Duffy blood group",
+    "title_fr": "Groupe sanguin Duffy",
+    "status": "a",
+    "deleted_at": {
+      "$date": "2023-09-06T05:43:44.000Z"
+    },
+    "updated_at": {
+      "$date": "2023-09-06T05:43:44.682Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.597Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e607596b9005e1d1005576"
+    },
+    "title": "K antigen (or Kell) group",
+    "title_fr": "Groupe de l'antigène K (ou Kell)",
+    "status": "a",
+    "deleted_at": {
+      "$date": "2023-09-06T05:43:49.000Z"
+    },
+    "updated_at": {
+      "$date": "2023-09-06T05:43:49.837Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:21.700Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e6075a6b9005e1d1005579"
+    },
+    "title": "Lutheran blood group",
+    "title_fr": "Groupe sanguin luthérien",
+    "status": "a",
+    "deleted_at": {
+      "$date": "2023-09-06T05:43:54.000Z"
+    },
+    "updated_at": {
+      "$date": "2023-09-06T05:43:54.140Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:22.135Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e6075a6b9005e1d100557c"
+    },
+    "title": "Kidd blood group",
+    "title_fr": "Groupe sanguin Kidd",
+    "status": "a",
+    "deleted_at": {
+      "$date": "2023-09-06T05:43:58.000Z"
+    },
+    "updated_at": {
+      "$date": "2023-09-06T05:43:58.426Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:22.240Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e6075a6b9005e1d100557f"
+    },
+    "title": "HH blood group (Bombay blood group)",
+    "title_fr": "Groupe sanguin HH (groupe sanguin Bombay)",
+    "status": "a",
+    "deleted_at": {
+      "$date": "2023-09-06T05:44:02.000Z"
+    },
+    "updated_at": {
+      "$date": "2023-09-06T05:44:02.337Z"
+    },
+    "created_at": {
+      "$date": "2023-08-23T13:19:22.340Z"
+    }
+  }
+]

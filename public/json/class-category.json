@@ -1,0 +1,128 @@
+[
+  {
+    "_id": {
+      "$oid": "65ba9274273a97a1e105ef42"
+    },
+    "title": "10 - 18 months",
+    "title_fr": "10 - 18 mois",
+    "from_age": 10,
+    "to_age": 18,
+    "from_age_in_month": 10,
+    "to_age_in_month": 18,
+    "age_type": "m",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-31T18:33:24.840Z"
+    },
+    "created_at": {
+      "$date": "2024-01-31T18:33:24.840Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ba9275273a97a1e105ef45"
+    },
+    "title": "18 - 24 months",
+    "title_fr": "18 - 24 mois",
+    "from_age": 18,
+    "to_age": 24,
+    "from_age_in_month": 18,
+    "to_age_in_month": 24,
+    "age_type": "m",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-31T18:33:25.092Z"
+    },
+    "created_at": {
+      "$date": "2024-01-31T18:33:25.092Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ba9275273a97a1e105ef48"
+    },
+    "title": "2 - 3 years",
+    "title_fr": "2 - 3 années",
+    "from_age": 2,
+    "to_age": 3,
+    "from_age_in_month": 24,
+    "to_age_in_month": 36,
+    "age_type": "y",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-31T18:33:25.242Z"
+    },
+    "created_at": {
+      "$date": "2024-01-31T18:33:25.242Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ba9275273a97a1e105ef4b"
+    },
+    "title": "3 - 4 years",
+    "title_fr": "3 - 4 années",
+    "from_age": 3,
+    "to_age": 4,
+    "from_age_in_month": 36,
+    "to_age_in_month": 48,
+    "age_type": "y",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-31T18:33:25.432Z"
+    },
+    "created_at": {
+      "$date": "2024-01-31T18:33:25.432Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ba9275273a97a1e105ef4e"
+    },
+    "title": "4 - 5 years",
+    "title_fr": "4 - 5 années",
+    "from_age": 4,
+    "to_age": 5,
+    "from_age_in_month": 48,
+    "to_age_in_month": 60,
+    "age_type": "y",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-31T18:33:25.652Z"
+    },
+    "created_at": {
+      "$date": "2024-01-31T18:33:25.652Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ba9275273a97a1e105ef51"
+    },
+    "title": "5 - 6 years",
+    "title_fr": "5 - 6 années",
+    "from_age": 5,
+    "to_age": 6,
+    "from_age_in_month": 60,
+    "to_age_in_month": 72,
+    "age_type": "y",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-31T18:33:25.754Z"
+    },
+    "created_at": {
+      "$date": "2024-01-31T18:33:25.754Z"
+    }
+  }
+]

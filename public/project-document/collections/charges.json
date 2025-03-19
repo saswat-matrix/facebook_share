@@ -1,0 +1,981 @@
+[{
+  "_id": {
+    "$oid": "65bbcc6be81cc0370f095f9c"
+  },
+  "particular_id": {
+    "$oid": "65bbcbedf8b41d5c0802db74"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 500,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "One off payment and fully non-refundable",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806379206"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806379206"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbccd8e81cc0370f095f9f"
+  },
+  "particular_id": {
+    "$oid": "65bbcbeff8b41d5c0802db77"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 750,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "An annual fee and fully non-refundable",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806488456"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806488456"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbccf6e81cc0370f095fa2"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf1f8b41d5c0802db7a"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 200,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "An annual fee and fully non-refundable)",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806518218"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806518218"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbcd32e81cc0370f095fa5"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf2f8b41d5c0802db7d"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 2000,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "Non-refundable and totally adjustable towards first term fee",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806578543"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806578543"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbcd95e81cc0370f095fa8"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 8950,
+  "age_specific": "y",
+  "from_age_in_month": 12,
+  "to_age_in_month": 18,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "13:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For less than 18 months of age only",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806677452"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806677452"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbcdb3e81cc0370f095fab"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 11650,
+  "age_specific": "y",
+  "from_age_in_month": 12,
+  "to_age_in_month": 18,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "15:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For less than 18 months of age only",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806707665"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806707665"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbcdd1e81cc0370f095fae"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 12300,
+  "age_specific": "y",
+  "from_age_in_month": 12,
+  "to_age_in_month": 18,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "17:30",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For less than 18 months of age only",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806737814"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806737814"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbce17e81cc0370f095fb1"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 11650,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "13:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For above 18 months of age",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706806807069"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706806807069"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bbd114e81cc0370f095fb4"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 14400,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "15:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For above 18 months of age",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1706807572317"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1706807572317"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf49087d2fcb33140f1920"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 16500,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "17:30",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For above 18 months of age",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707034888683"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707034888683"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf495f7d2fcb33140f1923"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf5f8b41d5c0802db83"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 120,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For all children above 18 months. Set  of short/skirt & Polo shirt.",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707034975499"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707034975499"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf498d7d2fcb33140f1928"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf7f8b41d5c0802db86"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 27,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "Registration for lunch is on termly basis.",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035021837"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035021837"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf49b87d2fcb33140f192b"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf9f8b41d5c0802db89"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 2750,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "y",
+  "transport_type": "o",
+  "description": "Per term (1 way)",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035064192"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035064192"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf49d77d2fcb33140f192e"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf9f8b41d5c0802db89"
+  },
+  "academic_year_id": {
+    "$oid": "65b4ae8f29aef3e4250899db"
+  },
+  "amount": 3900,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "y",
+  "transport_type": "t",
+  "description": "Per term (2 ways)",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035095462"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035095462"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4a0a7d2fcb33140f1931"
+  },
+  "particular_id": {
+    "$oid": "65bbcbedf8b41d5c0802db74"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 550,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "One off payment and fully non-refundable",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035146663"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035146663"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4a227d2fcb33140f1934"
+  },
+  "particular_id": {
+    "$oid": "65bbcbeff8b41d5c0802db77"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 800,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "An annual fee and fully non-refundable",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035170413"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035170413"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4a8b7d2fcb33140f1937"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf1f8b41d5c0802db7a"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 300,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "An annual fee and fully non-refundable",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035275176"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035275176"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4ac47d2fcb33140f193a"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf2f8b41d5c0802db7d"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 2500,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "Non-refundable and totally adjustable towards first term fee",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035332228"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035332228"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4b197d2fcb33140f193d"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 9000,
+  "age_specific": "y",
+  "from_age_in_month": 6,
+  "to_age_in_month": 18,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "13:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For less than 18 months of age only",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035417867"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035417867"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4b617d2fcb33140f1940"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 12000,
+  "age_specific": "y",
+  "from_age_in_month": 6,
+  "to_age_in_month": 18,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "15:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For less than 18 months of age only",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035489451"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035489451"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4bb07d2fcb33140f1943"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 13000,
+  "age_specific": "y",
+  "from_age_in_month": 6,
+  "to_age_in_month": 18,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "17:30",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For less than 18 months of age only",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035568548"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035568548"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4bf17d2fcb33140f1946"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 12000,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "13:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For above 18 months of age",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035633174"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035633174"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4c7a7d2fcb33140f1949"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 15000,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "15:00",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For above 18 months of age",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035770973"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035770973"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4cad7d2fcb33140f194c"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf4f8b41d5c0802db80"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 17000,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "y",
+  "stime": "07:00",
+  "etime": "17:30",
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For above 18 months of age",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035821269"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035821269"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4cfb7d2fcb33140f194f"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf5f8b41d5c0802db83"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 150,
+  "age_specific": "y",
+  "from_age_in_month": 18,
+  "to_age_in_month": 120,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "For all children above 18 months. Set of short/skirt & Polo shirt.",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035899961"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035899961"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4d197d2fcb33140f1952"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf7f8b41d5c0802db86"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 30,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "n",
+  "transport_type": null,
+  "description": "Registration for lunch is on termly basis.",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035929585"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035929585"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4d367d2fcb33140f1955"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf9f8b41d5c0802db89"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 3000,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "y",
+  "transport_type": "o",
+  "description": "Per term (1 way)",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035958912"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035958912"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "65bf4d577d2fcb33140f1958"
+  },
+  "particular_id": {
+    "$oid": "65bbcbf9f8b41d5c0802db89"
+  },
+  "academic_year_id": {
+    "$oid": "65ba7079450f801c9809b6fa"
+  },
+  "amount": 4000,
+  "age_specific": "n",
+  "from_age_in_month": null,
+  "to_age_in_month": null,
+  "time_specific": "n",
+  "stime": null,
+  "etime": null,
+  "transport_specific": "y",
+  "transport_type": "t",
+  "description": "Per term (2 ways)",
+  "status": "a",
+  "created_by": {
+    "$oid": "64f9f8742e2c45edef0a8622"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1707035991674"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1707035991674"
+    }
+  }
+}]

@@ -1,0 +1,46 @@
+[
+  {
+    "_id": {
+      "$oid": "66473fa8f3d31472d90a6eca"
+    },
+    "title": "Sibling Discount",
+    "title_fr": "Remise pour frères et sœurs",
+    "amount": 10,
+    "type": "esd",
+    "description": "Sibling Discount: Discount for having sibling",
+    "description_fr": "Remise pour frères et sœurs : réduction pour avoir un frère ou une sœur",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-05-17T11:44:11.992Z"
+    },
+    "created_at": {
+      "$date": "2024-05-17T11:29:44.045Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66728fd9358dff357005521a"
+    },
+    "title": "Early Payment Discount",
+    "title_fr": "Remise pour paiement anticipé",
+    "amount": 20,
+    "description": "Early Payment Discount: Discount for paying enrolment fee sooner.",
+    "type": "eepd",
+    "description_fr": "Remise pour paiement anticipé : remise pour payer les frais d’inscription plus tôt.",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-06-19T07:59:21.965Z"
+    },
+    "created_at": {
+      "$date": "2024-06-19T07:59:21.965Z"
+    }
+  }
+]

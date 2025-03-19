@@ -1,0 +1,40 @@
+Installing Matexcel in Laravel 9
+
+
+Method 1:
+-----------------
+
+1. Change ;extension=gd  to extension=gd in php.ini
+
+2. Either install psr/simple-cache ^2.0  (or ^1.0)
+
+composer require psr/simple-cache ^2.0
+
+3. Install maatwebsite/excel
+
+composer require maatwebsite/excel
+
+
+
+Method 2 (worked in home machine):-
+---------------------
+1. Change ;extension=gd  to extension=gd in php.ini
+
+2. Change ;extension=zip  to extension=zip in php.ini
+
+3. Either install psr/simple-cache ^2.0  (or ^1.0)
+
+composer require psr/simple-cache ^2.0
+
+4. Install phpoffice/phpspreadsheet
+
+composer require phpoffice/phpspreadsheet
+
+5. Install maatwebsite/excel
+
+composer require maatwebsite/excel
+
+
+https://stackoverflow.com/questions/56219962/composer-require-ext-zip-fails
+https://stackoverflow.com/questions/58335105/laravel-maatwebsite-excel-composer-install-error-in-mac
+https://stackoverflow.com/questions/67573930/i-have-face-a-problem-to-install-maatwebsite-excel-on-laravel-8-php-8

@@ -1,0 +1,216 @@
+[{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a1"
+  },
+  "title": "Banner Validation",
+  "entity": "banner",
+  "width": 2252,
+  "height": 500,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.920Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.920Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a2"
+  },
+  "title": "Logo Validation",
+  "entity": "logo",
+  "width": 512,
+  "height": 512,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.921Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.921Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a3"
+  },
+  "title": "Social-media-icon Validation",
+  "entity": "social-media-icon",
+  "width": 100,
+  "height": 100,
+  "size": 2097152,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.921Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.921Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a4"
+  },
+  "title": "User Validation",
+  "entity": "user",
+  "width": 1080,
+  "height": 1080,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.922Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.922Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a5"
+  },
+  "title": "Admin Validation",
+  "entity": "admin",
+  "width": 1080,
+  "height": 1080,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.922Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.922Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a6"
+  },
+  "title": "Parent Validation",
+  "entity": "parent",
+  "width": 1080,
+  "height": 1080,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.923Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a7"
+  },
+  "title": "Teacher Validation",
+  "entity": "teacher",
+  "width": 1080,
+  "height": 1080,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.923Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.923Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a8"
+  },
+  "title": "Child Validation",
+  "entity": "child",
+  "width": 1080,
+  "height": 1080,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.924Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.924Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a9"
+  },
+  "title": "Student Validation",
+  "entity": "student",
+  "width": 1080,
+  "height": 1080,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.924Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.924Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f2b9f5dfbcbb314602d312"
+  },
+  "title": "Registration Validation",
+  "entity": "registration",
+  "width": 1080,
+  "height": 1080,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-09-02T04:28:37.226Z"
+  },
+  "created_at": {
+    "$date": "2023-09-02T04:28:37.226Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f2b9f5dfbcbb314602d313"
+  },
+  "title": "Favicon Validation",
+  "entity": "favicon",
+  "width": 50,
+  "height": 50,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-09-02T04:28:37.226Z"
+  },
+  "created_at": {
+    "$date": "2023-09-02T04:28:37.226Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64f2b9f5dfbcbb314602d314"
+  },
+  "title": "Email Header Validation",
+  "entity": "email-header",
+  "width": 1640,
+  "height": 324,
+  "size": 5242880,
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-09-02T04:28:37.226Z"
+  },
+  "created_at": {
+    "$date": "2023-09-02T04:28:37.226Z"
+  }
+}]

@@ -1,0 +1,143 @@
+db.createUser({user: "sportifiAdmin", pwd: "Thutmekri2k12", roles:[{role: "userAdmin" , db:"admin"}]})
+
+
+mongodb://parkytstgdba:Thutmekri2k12@38.242.240.183:27017/?authMechanism=DEFAULT&authSource=parkytstg&tlsCAFile=C%3A%5Creact-project%5Cparkyt-project-documents%5CParkyt-Origin-Cert-June-2022.pem&tlsCertificateKeyFile=C%3A%5Creact-project%5Cparkyt-project-documents%5CParkyt-Origin-Key-June-2022.pem
+
+
+mongodb://sportifiAdmin:Thutmekri2k12@95.111.241.115:27017/?authMechanism=DEFAULT&authSource=admin
+
+
+
+db.createUser({user: "sportifiAdmin", pwd: "Thutmekri2k12", roles: [{ role: "userAdminAnyDatabase", db: "admin"}, {role: "root", db: "admin"}]})
+
+db.createUser({user: "sportifi_mongodba", pwd: "Thutmekri2k12", roles: [{ role: "dbOwner", db: "sportifi_mongodb"}]})
+
+db.auth( "sportifiAdmin", "Thutmekri2k12" )
+
+db.createUser({user: "sportifi_mongodba", pwd: "Thutmekri2k12", roles:[{role: "userAdmin" , db:"sportifi_mongodb"}]})
+
+
+Live DB connection
+
+mongodb://sportifi_mongodba:Thutmekri2k12@95.111.241.115:27017/?authMechanism=DEFAULT&authSource=sportifi_mongodb
+
+--------------------------------------------
+
+1. Select admin DB:-
+
+use admin
+
+2. Create a new user under admin DB:-
+
+db.createUser({user: "lppAdmin", pwd: "Thutmekri2k12", roles: [{ role: "userAdminAnyDatabase", db: "admin"}, {role: "root", db: "admin"}]})
+
+3. create a new db:-
+
+use lppportal_mongodb
+
+4. Authenticate lppAdmin before creating lppportal admin
+
+db.auth( "lppAdmin", "Thutmekri2k12" )
+
+5 create lppportal admin
+
+db.createUser({user: "lppportal_mongodba", pwd: "Thutmekri2k12", roles: [{ role: "dbOwner", db: "lppportal_mongodb"}]})
+
+
+
+--------------------------------------------------
+db.updateUser({user: "lppportal_mongodba", pwd: "Thutmekri2k12", roles: [{ role: "userAdminAnyDatabase", db: "lppportal_mongodb"}, { role: "dbOwner", db: "lppportal_mongodb"}]})
+
+
+For creating multiple database using same user: Multi-tenant system, 
+--------------------------------------------------------------------
+
+a. Create a root user under admin:-
+
+> use admin
+
+> db.createUser({user: "lppAdmin", pwd: "Thutmekri2k12", roles: [{ role: "userAdminAnyDatabase", db: "admin"}, {role: "root", db: "admin"}]})
+
+b. create the main database lppportal_mongodb
+
+> use lppportal_mongodb
+
+c. In the env file, use the credentials:-
+
+MONGODB_CONNECTION=mongodb
+MONGODB_HOST=localhost
+MONGODB_PORT=27017
+MONGODB_DATABASE=lppportal_mongodb
+MONGODB_USERNAME=lppAdmin
+MONGODB_PASSWORD=Thutmekri2k12
+MONGODB_AUTH_DATABASE=admin
+MONGODB_MASTER_DATABASE=lppportal_mongodb
+
+
+4. In Laravel config/database.php, 
+
+'mongodb' => [
+            'driver'   => 'mongodb',
+            'host'     => env('MONGODB_HOST', 'localhost'),
+            'port'     => env('MONGODB_PORT', 27017),
+            'database' => env('MONGODB_DATABASE'),
+            'username' => env('MONGODB_USERNAME'),
+            'password' => env('MONGODB_PASSWORD'),
+            'options'  => [
+                'database' => env('MONGODB_AUTH_DATABASE')
+            ]
+        ],
+
+options => 'database' denotes the authSource database, ie. the admin database in our case
+
+5. Connection string in PHP code should be this:-
+
+$connectionString   = 'mongodb://' . env('MONGODB_USERNAME') . ':' . env('MONGODB_PASSWORD') . '@' . env('MONGODB_HOST') . ':' . env('MONGODB_PORT') . '/?authSource=' . env('MONGODB_AUTH_DATABASE');
+
+where authSource should be the db user the user resides, ie. admin database
+
+6. To create a new database via php code,
+
+     $client    = new MongoClient($connectionString);   // Connect to MongoDB server
+     $database  = $client->$databaseName;
+
+6. To grant the dbOwner role of this database to exsting lppAdmin root user, 
+
+     $command   = array(
+                       'grantRolesToUser'  => env('MONGODB_USERNAME'),
+                       'roles'             => array(
+                                                    array(
+                                                       'role'  => 'dbOwner',
+                                                       'db'    => $databaseName
+                                                    )
+                                              )
+                  );
+     $manager->executeCommand(env('MONGODB_AUTH_DATABASE'), new MongoCommand($command));
+
+7. For switching between DB
+
+DB::disconnect('mongodb');    // Disconnect connection: mongodb
+DB::purge('mongodb');         // Purge connection: mongodb
+Config::set('database.connections.mongodb.database', $databaseName);   // Set new database
+
+// This is for MongoDB connection string part [?authSource=admin]
+// This points to the database where the username resides. Since newly created DB has no user of its own and use same user from same database, this one is blocked ie. not executed
+// Config::set('database.connections.mongodb.options', array('database' => $databaseName));  // Reset authSource database in option
+
+DB::reconnect('mongodb');     // Reconnect connection: mongodb
+
+
+
+
+
+Mongo DB commands:-
+--------------------------
+1. Granting role to a user
+db.grantRolesToUser( "lppAdmin", [{role: 'dbOwner', db: 'little_buds'}, {role: 'dbOwner', db: 'little_roses'}])
+
+2. Revoking role from an user
+db.revokeRolesFromUser( "lppAdmin", [{role: 'dbOwner', db: 'little_buds'}, {role: 'dbOwner', db: 'little_roses'}])
+
+
+
+

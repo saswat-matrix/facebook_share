@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f589b"
+  },
+  "config_key": "globalApiPassword",
+  "config_value": "$2y$10$Ez0lq1ja2zuIf7FgKDJ3veWNsDJqiBbcygtliij2zld7RQKO5E.nC",
+  "value_unit": "text",
+  "status": "a",
+  "created_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "modified_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.916Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.916Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f589c"
+  },
+  "config_key": "from_emails",
+  "config_value": "teamftestemail@gmail.com",
+  "value_unit": "one",
+  "status": "a",
+  "created_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "modified_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.917Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.917Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f589d"
+  },
+  "config_key": "to_emails",
+  "config_value": "teamftestemail@gmail.com",
+  "value_unit": "one",
+  "status": "a",
+  "created_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "modified_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.918Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f589e"
+  },
+  "config_key": "date_format",
+  "config_value": "Y/m/d",
+  "value_unit": "date",
+  "status": "a",
+  "created_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "modified_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.918Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.918Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f589f"
+  },
+  "config_key": "time_format",
+  "config_value": "h:i A",
+  "value_unit": "time",
+  "status": "a",
+  "created_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "modified_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.919Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.919Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64da84c9edd7475f2a0f58a0"
+  },
+  "config_key": "pagination_limit",
+  "config_value": "10",
+  "value_unit": "text",
+  "status": "a",
+  "created_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "modified_date": {
+    "$date": "2023-08-14T19:47:20.000Z"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-14T19:47:21.919Z"
+  },
+  "created_at": {
+    "$date": "2023-08-14T19:47:21.919Z"
+  }
+}]

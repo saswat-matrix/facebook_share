@@ -1,0 +1,38 @@
+app/Http/Controllers/AjaxController.php            |    4 +-
+ .../Controllers/front/PreEnrolmentController.php   | 1249 ++++++++++++++++++--
+ app/Http/Controllers/front/StudentController.php   |   19 +-
+ public/admin_assets/css/custom.css                 |   23 +-
+ .../{loading_image.gif => loading_with_image.gif}  |  Bin
+ ...ding_no_image.gif => loading_without_image.gif} |  Bin
+ .../js/admin-js/validation/pre-enrolment/edit.js   |   25 +-
+ public/js/admin-js/validation/student/add.js       |   22 +-
+ public/js/front-js/validation/pre-enrolment/add.js |    4 +-
+ public/js/front-js/validation/student/pre-enrol.js |   29 +-
+ ...-mahira-1695371284-650d50121f8170adf60e7228.png |  Bin 0 -> 744423 bytes
+ ...murtaja-1695371284-650d50121f8170adf60e7228.png |  Bin 0 -> 729807 bytes
+ ...p-juber-1695385622-650d88161f8170adf60e723a.png |  Bin 0 -> 717500 bytes
+ ...p-aisha-1695385622-650d88161f8170adf60e723a.png |  Bin 0 -> 731156 bytes
+ ...shehnaz-1695371283-650d50121f8170adf60e7228.png |  Bin 0 -> 639386 bytes
+ ...-fariha-1695371283-650d50131f8170adf60e722c.png |  Bin 0 -> 669425 bytes
+ ...u-rayan-1695371282-650d50121f8170adf60e722a.png |  Bin 0 -> 723239 bytes
+ .../admin/element/post-login-footer.blade.php      |    2 +
+ .../front/element/post-login-footer.blade.php      |    3 +
+ .../element/post-login-headerscript.blade.php      |    3 +-
+ .../front/element/public-footerscript.blade.php    |    5 +-
+ .../pre-enrolment/authorized-persons.blade.php     |  150 +++
+ .../views/front/pre-enrolment/detail.blade.php     |  326 +++++
+ resources/views/front/pre-enrolment/list.blade.php |  200 ++++
+ .../front/pre-enrolment/medical-info.blade.php     |  426 +++++++
+ .../views/front/pre-enrolment/parents.blade.php    |  296 +++++
+ .../views/front/pre-enrolment/services.blade.php   |  341 ++++++
+ resources/views/front/student/pre-enrol.blade.php  |   34 +-
+ routes/web.php                                     |   41 +-
+
+
+modified:   app/Http/Controllers/admin/PreEnrolmentController.php
+modified:   app/Http/Controllers/front/StudentController.php
+modified:   app/Models/Parentt.php
+modified:   resources/views/admin/pre-enrolment/edit.blade.php
+modified:   resources/views/front/element/public-footer.blade.php
+modified:   resources/views/front/user/profile.blade.php
+

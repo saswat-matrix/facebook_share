@@ -1,0 +1,9 @@
+Thothamon@2k24
+
+https://stackoverflow.com/questions/183928/how-to-let-php-to-create-subdomain-automatically-for-each-user
+
+https://stackoverflow.com/questions/30802595/how-do-i-create-sub-sub-domain-on-cloudflare-dns
+
+https://stackoverflow.com/questions/5822117/how-to-dynamically-create-subdomains
+
+https://stackoverflow.com/questions/29550184/how-do-i-add-a-subdomain-to-cloudflare-in-php-on-the-fly

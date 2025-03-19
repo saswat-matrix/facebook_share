@@ -1,0 +1,10 @@
+php artisan migrate
+
+php artisan db:seed
+
+Mongo Migration:-
+https://blog.shahednasser.com/how-to-use-mongodb-with-laravel/
+
+https://github.com/mostafamaklad/laravel-permission-mongodb
+
+https://github.com/fahmiardi/laravel-mongodb-permission

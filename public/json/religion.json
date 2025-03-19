@@ -1,0 +1,137 @@
+[
+  {
+    "_id": {
+      "$oid": "64ddef9d0e65cb042c078f52"
+    },
+    "name": "Buddhism",
+    "name_fr": "Bouddhisme",
+    "status": "i",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:57.425Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:57.425Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9d0e65cb042c078f55"
+    },
+    "name": "Christianity",
+    "name_fr": "Christianisme",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:57.625Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:57.625Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9d0e65cb042c078f58"
+    },
+    "name": "Hinduism",
+    "name_fr": "Hindouisme",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:57.741Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:57.741Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9d0e65cb042c078f5b"
+    },
+    "name": "Indigenous Religions",
+    "name_fr": "Religions autochtones",
+    "status": "i",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:57.846Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:57.846Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9e0e65cb042c078f5e"
+    },
+    "name": "Islam",
+    "name_fr": "Islam",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:58.039Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:58.039Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9e0e65cb042c078f61"
+    },
+    "name": "Judaism",
+    "name_fr": "Judaïsme",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:58.137Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:58.137Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9e0e65cb042c078f64"
+    },
+    "name": "Non-Religious People",
+    "name_fr": "Personnes non religieuses",
+    "status": "i",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:58.280Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:58.280Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9e0e65cb042c078f67"
+    },
+    "name": "Others",
+    "name_fr": "Autres",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:58.409Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:58.409Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64ddef9e0e65cb042c078f6a"
+    },
+    "name": "Prevailing Beliefs",
+    "name_fr": "Croyances dominantes",
+    "status": "i",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-17T09:59:58.495Z"
+    },
+    "created_at": {
+      "$date": "2023-08-17T09:59:58.495Z"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+https://stackoverflow.com/questions/51933313/how-to-create-mongodb-views-in-php-using-mongodb-client-library
+
+https://stackoverflow.com/questions/76731136/getting-command-find-requires-authentication-from-mongodb-in-laravel-project
+
+https://stackoverflow.com/questions/6482224/mongodb-php-driver-how-to-create-database-and-add-user-to-it
+
+https://stackoverflow.com/questions/34395994/mongodb-php-library-how-to-create-database
+
+https://stackoverflow.com/questions/55459631/command-insert-requires-authentication
+
+https://www.tutorialspoint.com/mongodb/mongodb_php.htm
+
+https://www.mongodb.com/docs/php-library/current/tutorial/connecting/
+
+https://www.mongodb.com/docs/v2.4/tutorial/add-user-to-database/
+
+https://kb.objectrocket.com/elasticsearch/how-to-add-users-and-how-to-manage-user-roles-in-mongodb-using-php-287

@@ -1,0 +1,216 @@
+[
+  {
+    "_id": {
+      "$oid": "65ce380f2c08724c8d0af0c2"
+    },
+    "title": "Booking Fee",
+    "title_fr": "Frais de réservation",
+    "mandatory": "n",
+    "age_specific": "n",
+    "type": "a",
+    "charge_type": [
+      "bc",
+      "ec",
+      "pec"
+    ],
+    "refundable": "n",
+    "description": "Non-refundable and totally adjustable towards first term fee",
+    "description_fr": "Non remboursable et totalement ajustable sur les frais du premier trimestre",
+    "order": 1,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-16T11:58:40.826Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:03.267Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ce380f2c08724c8d0af0c5"
+    },
+    "title": "Registration Fee",
+    "title_fr": "Frais d'inscription",
+    "mandatory": "y",
+    "age_specific": "n",
+    "type": "ot",
+    "charge_type": [
+      "pec"
+    ],
+    "refundable": "n",
+    "description": "One off payment and fully non-refundable",
+    "description_fr": "Paiement unique et entièrement non remboursable",
+    "order": 2,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-15T16:13:03.585Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:03.585Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ce380f2c08724c8d0af0c8"
+    },
+    "title": "Medical and Insurance Fee",
+    "title_fr": "Frais médicaux et d'assurance",
+    "mandatory": "y",
+    "age_specific": "n",
+    "type": "a",
+    "charge_type": [
+      "ec",
+      "pec"
+    ],
+    "refundable": "n",
+    "description": "An annual fee and fully non-refundable",
+    "description_fr": "Une cotisation annuelle et entièrement non remboursable",
+    "order": 3,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-15T16:13:03.976Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:03.976Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ce38102c08724c8d0af0cb"
+    },
+    "title": "Uniform Charges",
+    "title_fr": "Frais uniformes",
+    "mandatory": "y",
+    "age_specific": "y",
+    "type": "pu",
+    "charge_type": [
+      "ic",
+      "ec",
+      "pec"
+    ],
+    "refundable": "y",
+    "description": "Uniform is mandatory for all children (above 18 months) AED 120/per set (short/skort & Polo shirt)",
+    "description_fr": "L'uniforme est obligatoire pour tous les enfants (plus de 18 mois) 120 AED/par ensemble (short/jupe-short et polo)",
+    "order": 4,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-15T16:13:04.322Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:04.322Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ce38102c08724c8d0af0ce"
+    },
+    "title": "Class Kit",
+    "title_fr": "Trousse de classe",
+    "mandatory": "y",
+    "age_specific": "n",
+    "type": "a",
+    "charge_type": [
+      "ec",
+      "pec"
+    ],
+    "refundable": "n",
+    "description": "An annual fee and fully non-refundable",
+    "description_fr": "Une cotisation annuelle et entièrement non remboursable",
+    "order": 5,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-15T16:13:04.616Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:04.616Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ce38102c08724c8d0af0d1"
+    },
+    "title": "Nursery Fee",
+    "title_fr": "Frais de crèche",
+    "mandatory": "y",
+    "age_specific": "y",
+    "type": "pt",
+    "charge_type": [
+      "tc"
+    ],
+    "refundable": "n",
+    "description": "Per term fee",
+    "description_fr": "Frais par trimestre",
+    "order": 6,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-15T16:13:04.809Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:04.809Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ce38112c08724c8d0af0d4"
+    },
+    "title": "Lunch Charge",
+    "title_fr": "Frais de déjeuner",
+    "mandatory": "n",
+    "age_specific": "n",
+    "type": "ptpu",
+    "charge_type": [
+      "tc"
+    ],
+    "refundable": "n",
+    "description": "Lunch is provided for an additional cost of AED 27/per meal. Registration for lunch is on termly basis",
+    "description_fr": "Le déjeuner est proposé moyennant des frais supplémentaires de 27 AED par repas. L'inscription au déjeuner se fait sur une base trimestrielle",
+    "order": 7,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-15T16:13:05.044Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:05.044Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65ce38112c08724c8d0af0d7"
+    },
+    "title": "Transport Charge",
+    "title_fr": "Charge de transport",
+    "mandatory": "n",
+    "age_specific": "n",
+    "type": "pt",
+    "charge_type": [
+      "tc"
+    ],
+    "refundable": "n",
+    "description": "Transportation Service available as an option",
+    "description_fr": "Service de transport disponible en option",
+    "order": 8,
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-15T16:13:05.466Z"
+    },
+    "created_at": {
+      "$date": "2024-02-15T16:13:05.466Z"
+    }
+  }
+]

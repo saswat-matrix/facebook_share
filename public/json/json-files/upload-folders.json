@@ -1,0 +1,86 @@
+[
+  {
+    "folder": "authorized-person"
+  },
+  {
+    "folder": "authorized-person/image"
+  },
+  {
+    "folder": "invoice"
+  },
+  {
+    "folder": "invoice/pdf"
+  },
+  {
+    "folder": "pre-enrolment"
+  },
+  {
+    "folder": "pre-enrolment/image"
+  },
+  {
+    "folder": "pre-enrolment-authorized-person"
+  },
+  {
+    "folder": "pre-enrolment-authorized-person/image"
+  },
+  {
+    "folder": "pre-enrolment-parent"
+  },
+  {
+    "folder": "pre-enrolment-parent/image"
+  },
+  {
+    "folder": "registration"
+  },
+  {
+    "folder": "registration/image"
+  },
+  {
+    "folder": "registration-authorized-person"
+  },
+  {
+    "folder": "registration-authorized-person/image"
+  },
+  {
+    "folder": "registration-parent"
+  },
+  {
+    "folder": "registration-parent/image"
+  },
+  {
+    "folder": "setting"
+  },
+  {
+    "folder": "setting/favicon"
+  },
+  {
+    "folder": "setting/logo"
+  },
+  {
+    "folder": "setting/image"
+  },
+  {
+    "folder": "setting/banner"
+  },
+  {
+    "folder": "setting/email-header"
+  },
+  {
+    "folder": "student"
+  },
+  {
+    "folder": "student/image"
+  },
+  {
+    "folder": "student-document"
+  },
+  {
+    "folder": "student-document/file"
+  },
+  {
+    "folder": "user"
+  },
+  {
+    "folder": "user/image"
+  }
+]

@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "64dcbf53396f263c4202b6fd"
+  },
+  "title": "Teacher",
+  "title_fr": "Professeur",
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-16T12:21:39.994Z"
+  },
+  "created_at": {
+    "$date": "2023-08-16T12:21:39.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64dcbf54396f263c4202b700"
+  },
+  "title": "Assistant Teacher",
+  "title_fr": "Professeur adjoint",
+  "status": "a",
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2023-08-16T12:21:40.079Z"
+  },
+  "created_at": {
+    "$date": "2023-08-16T12:21:40.079Z"
+  }
+}]

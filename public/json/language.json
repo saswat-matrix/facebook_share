@@ -1,0 +1,122 @@
+[
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f2"
+    },
+    "name": "English",
+    "name_fr": "Anglais",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.617Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.617Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f3"
+    },
+    "name": "French",
+    "name_fr": "Français",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.620Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.620Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f4"
+    },
+    "name": "Arabic",
+    "name_fr": "Arabe",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.621Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.621Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f5"
+    },
+    "name": "Russian",
+    "name_fr": "Russe",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.622Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.622Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f6"
+    },
+    "name": "Spanish",
+    "name_fr": "Espagnol",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.623Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.623Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f7"
+    },
+    "name": "Chinese",
+    "name_fr": "Chinois",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.624Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.624Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f8"
+    },
+    "name": "Deutsch",
+    "name_fr": "Allemand",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.625Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.625Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "66d048da58225de05a0379f9"
+    },
+    "name": "Others",
+    "name_fr": "Autres",
+    "status": "a",
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-08-29T10:09:30.626Z"
+    },
+    "created_at": {
+      "$date": "2024-08-29T10:09:30.626Z"
+    }
+  }
+]

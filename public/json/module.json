@@ -1,0 +1,384 @@
+[
+  {
+    "_id": {
+      "$oid": "64dcbf52396f263c4202b6e2"
+    },
+    "title": "logo",
+    "display_title": "Logo Management",
+    "display_title_fr": "Gestion des logos",
+    "type": "a",
+    "status": "i",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:38.746Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:38.746Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf52396f263c4202b6e5"
+    },
+    "title": "image-validation",
+    "display_title": "Image Validation Management",
+    "display_title_fr": "Gestion de la validation des images",
+    "type": "a",
+    "status": "i",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:38.865Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:38.865Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf52396f263c4202b6e8"
+    },
+    "title": "class-category",
+    "display_title": "Class Category Management",
+    "display_title_fr": "Gestion des catégories de classe",
+    "type": "a",
+    "status": "i",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:38.942Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:38.942Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf53396f263c4202b6eb"
+    },
+    "title": "class",
+    "display_title": "Class Management",
+    "display_title_fr": "Gestion de classe",
+    "type": "a",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:39.133Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:39.133Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf53396f263c4202b6ee"
+    },
+    "title": "teacher-role",
+    "display_title": "Teacher Role Management",
+    "display_title_fr": "Gestion du rôle de l'enseignant",
+    "type": "a",
+    "status": "i",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:39.228Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:39.228Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf53396f263c4202b6f1"
+    },
+    "title": "teacher",
+    "display_title": "Teacher Management",
+    "display_title_fr": "Gestion des enseignants",
+    "type": "a",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:39.490Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:39.490Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf53396f263c4202b6f4"
+    },
+    "title": "term",
+    "display_title": "Term Management",
+    "display_title_fr": "Gestion des termes",
+    "type": "a",
+    "status": "i",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:39.616Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:39.616Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf53396f263c4202b6f7"
+    },
+    "title": "academic-year",
+    "display_title": "Academic Year Management",
+    "display_title_fr": "Gestion de l'année académique",
+    "type": "a",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:39.716Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:39.716Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64dcbf53396f263c4202b6fa"
+    },
+    "title": "student",
+    "display_title": "Student Management",
+    "display_title_fr": "Gestion des étudiants",
+    "type": "a",
+    "status": "a",
+    "created_by": null,
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-16T12:21:39.875Z"
+    },
+    "created_at": {
+      "$date": "2023-08-16T12:21:39.875Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e98e3e7a5c747255032ed2"
+    },
+    "title": "medical-submission",
+    "display_title": "Medical Form",
+    "display_title_fr": "Formulaire médical",
+    "type": "a",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-09-06T03:48:33.345Z"
+    },
+    "created_at": {
+      "$date": "2023-08-26T05:31:42.327Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e9cf5dcee36bc0f30b5872"
+    },
+    "title": "lunch-submission",
+    "display_title": "Lunch Form",
+    "display_title_fr": "Formulaire de déjeuner",
+    "type": "a",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-09-06T03:58:55.029Z"
+    },
+    "created_at": {
+      "$date": "2023-08-26T10:09:33.130Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64e9cf7b13503b55d20fae42"
+    },
+    "title": "transport-submission",
+    "display_title": "Transport Form",
+    "display_title_fr": "Formulaire de transport",
+    "type": "a",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-09-06T03:59:11.205Z"
+    },
+    "created_at": {
+      "$date": "2023-08-26T10:10:03.728Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64f0b8409952da7fbf075b42"
+    },
+    "title": "activity",
+    "display_title": "Activity Management",
+    "display_title_fr": "Gestion des activités",
+    "type": "a",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-08-31T15:56:48.149Z"
+    },
+    "created_at": {
+      "$date": "2023-08-31T15:56:48.149Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "64f2b9a5023d0933c50d81c2"
+    },
+    "title": "registration",
+    "display_title": "Registration Management",
+    "display_title_fr": "Gestion des inscriptions",
+    "type": "a",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-09-02T04:27:17.329Z"
+    },
+    "created_at": {
+      "$date": "2023-09-02T04:27:17.329Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "652ce5267851ed597b0106b2"
+    },
+    "title": "enrolment",
+    "display_title": "Enrolment Management",
+    "display_title_fr": "Gestion des inscriptions",
+    "type": "b",
+    "status": "i",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-10-16T07:26:56.241Z"
+    },
+    "created_at": {
+      "$date": "2023-10-16T07:24:22.476Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "653b84cae49a932572016912"
+    },
+    "title": "activity-submission",
+    "display_title": "Student Activity Management",
+    "display_title_fr": "Gestion des activités des étudiants",
+    "type": "a",
+    "status": "i",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2023-10-27T11:41:33.489Z"
+    },
+    "created_at": {
+      "$date": "2023-10-27T09:37:14.475Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65b7293da3b9f8cfd20fce02"
+    },
+    "title": "particular",
+    "display_title": "Particular Management",
+    "display_title_fr": "Gestion Particulière",
+    "type": "b",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-29T04:27:41.032Z"
+    },
+    "created_at": {
+      "$date": "2024-01-29T04:27:41.032Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65b7293da3b9f8cfd20fce03"
+    },
+    "title": "charge",
+    "display_title": "Charge Management",
+    "display_title_fr": "Gestion des frais",
+    "type": "b",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-01-29T04:28:05.094Z"
+    },
+    "created_at": {
+      "$date": "2024-01-29T04:28:05.094Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65c26144de25790ed80c67e2"
+    },
+    "title": "invoice",
+    "display_title": "Invoice Management",
+    "display_title_fr": "Gestion des factures",
+    "type": "b",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-06T16:41:40.006Z"
+    },
+    "created_at": {
+      "$date": "2024-02-06T16:41:40.006Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65c26144de25790ed80c67e3"
+    },
+    "title": "discount",
+    "display_title": "Discount Management",
+    "display_title_fr": "Gestion des remises",
+    "type": "b",
+    "status": "a",
+    "created_by": {
+      "$oid": "64da84c8edd7475f2a0f5882"
+    },
+    "deleted_at": null,
+    "updated_at": {
+      "$date": "2024-02-06T16:41:40.006Z"
+    },
+    "created_at": {
+      "$date": "2024-02-06T16:41:40.006Z"
+    }
+  }
+]

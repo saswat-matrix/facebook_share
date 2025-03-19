@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "65bcd0b90a47b1cc550b6282"
+  },
+  "year": "2023 - 2024",
+  "term": null,
+  "sdate": {
+    "$date": "2023-08-28T00:00:00.000Z"
+  },
+  "edate": {
+    "$date": "2024-08-25T23:59:00.000Z"
+  },
+  "sdate_booking": {
+    "$date": "2023-04-01T00:00:00.000Z"
+  },
+  "edate_booking": {
+    "$date": "2023-08-27T23:59:00.000Z"
+  },
+  "sdate_of_term1": {
+    "$date": "2023-08-28T00:00:00.000Z"
+  },
+  "edate_of_term1": {
+    "$date": "2023-12-21T23:59:00.000Z"
+  },
+  "sdate_of_term2": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "edate_of_term2": {
+    "$date": "2024-03-16T23:59:00.000Z"
+  },
+  "sdate_of_term3": {
+    "$date": "2024-04-29T00:00:00.000Z"
+  },
+  "edate_of_term3": {
+    "$date": "2024-08-25T23:59:00.000Z"
+  },
+  "max_students": null,
+  "min_days_per_week": 3,
+  "max_days_per_week": 5,
+  "age_limit_for_min_days_in_month": 18,
+  "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri"
+  ],
+  "rules": "Follow Rules",
+  "status": "a",
+  "created_by": {
+    "$oid": "64da84c8edd7475f2a0f5882"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-03-21T09:35:34.198Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:23:37.000Z"
+  },
+  "edate_of_term1_term2_break": {
+    "$date": "2024-03-30T23:59:00.000Z"
+  },
+  "edate_of_term2_term3_break": {
+    "$date": "2024-04-25T23:59:00.000Z"
+  },
+  "sdate_of_term1_term2_break": {
+    "$date": "2023-12-23T00:00:00.000Z"
+  },
+  "sdate_of_term2_term3_break": {
+    "$date": "2024-03-18T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65bcd187e2e998614303adf2"
+  },
+  "year": "2024 - 2025",
+  "term": null,
+  "sdate": {
+    "$date": "2024-08-26T00:00:00.000Z"
+  },
+  "edate": {
+    "$date": "2025-08-24T23:59:00.000Z"
+  },
+  "sdate_booking": {
+    "$date": "2024-01-01T00:00:00.000Z"
+  },
+  "edate_booking": {
+    "$date": "2024-08-25T23:59:00.000Z"
+  },
+  "sdate_of_term1": {
+    "$date": "2024-08-26T00:00:00.000Z"
+  },
+  "edate_of_term1": {
+    "$date": "2024-12-19T23:59:00.000Z"
+  },
+  "sdate_of_term2": {
+    "$date": "2025-01-06T00:00:00.000Z"
+  },
+  "edate_of_term2": {
+    "$date": "2025-03-20T23:59:00.000Z"
+  },
+  "sdate_of_term3": {
+    "$date": "2025-04-07T00:00:00.000Z"
+  },
+  "edate_of_term3": {
+    "$date": "2025-08-24T23:59:00.000Z"
+  },
+  "max_students": null,
+  "min_days_per_week": 3,
+  "max_days_per_week": 5,
+  "age_limit_for_min_days_in_month": 18,
+  "days": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri"
+  ],
+  "rules": "Follow Rules",
+  "status": "a",
+  "created_by": {
+    "$oid": "64da84c8edd7475f2a0f5882"
+  },
+  "deleted_at": null,
+  "updated_at": {
+    "$date": "2024-03-21T09:40:09.837Z"
+  },
+  "created_at": {
+    "$date": "2024-02-02T11:27:03.000Z"
+  },
+  "edate_of_term1_term2_break": {
+    "$date": "2025-01-04T23:59:00.000Z"
+  },
+  "edate_of_term2_term3_break": {
+    "$date": "2025-04-05T23:59:00.000Z"
+  },
+  "sdate_of_term1_term2_break": {
+    "$date": "2024-12-23T00:00:00.000Z"
+  },
+  "sdate_of_term2_term3_break": {
+    "$date": "2025-03-21T00:00:00.000Z"
+  }
+}]

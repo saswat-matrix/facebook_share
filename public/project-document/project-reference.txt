@@ -1,0 +1,5 @@
+1-Search for venues like this https://playo.co/venues
+2-I see a list of venues like this https://playo.co/venues/dubai/sports/all
+3-If you select KooraDome
+Each location will have similar info like this https://playo.co/venues/dubai/koora-dome-dubai-al-wasl-club-al-jaddaf-oud-metha-dubai
+4-Booking https://playo.co/booking?venueId=8328b8e7-c11d-4cff-bd29-a7f58181efd3

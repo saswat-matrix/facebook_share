@@ -1,0 +1,3 @@
+https://www.honeybadger.io/blog/user-roles-permissions-in-laravel/
+https://www.youtube.com/watch?v=I4OSclIvxpo
+https://laravel.com/docs/10.x/migrations#column-method-timestamps

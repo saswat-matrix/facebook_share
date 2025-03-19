@@ -1,0 +1,576 @@
+[{
+  "_id": {
+    "$oid": "65fd74543b1d8071bc08820e"
+  },
+  "guard_name": "web",
+  "name": "class_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:44.979Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:44.979Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08820f"
+  },
+  "guard_name": "web",
+  "name": "class_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.004Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.004Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088210"
+  },
+  "guard_name": "web",
+  "name": "class_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.020Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.020Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088211"
+  },
+  "guard_name": "web",
+  "name": "teacher_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.037Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.037Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088212"
+  },
+  "guard_name": "web",
+  "name": "teacher_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.050Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.050Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088213"
+  },
+  "guard_name": "web",
+  "name": "teacher_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.060Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.060Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088214"
+  },
+  "guard_name": "web",
+  "name": "academic-year_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.074Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.074Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088215"
+  },
+  "guard_name": "web",
+  "name": "academic-year_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.086Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.086Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088216"
+  },
+  "guard_name": "web",
+  "name": "academic-year_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.098Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.098Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088217"
+  },
+  "guard_name": "web",
+  "name": "student_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.111Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.111Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088218"
+  },
+  "guard_name": "web",
+  "name": "student_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.123Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.123Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088219"
+  },
+  "guard_name": "web",
+  "name": "student_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.136Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.136Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08821a"
+  },
+  "guard_name": "web",
+  "name": "medical-submission_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.149Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.149Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08821b"
+  },
+  "guard_name": "web",
+  "name": "medical-submission_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.162Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.162Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08821c"
+  },
+  "guard_name": "web",
+  "name": "medical-submission_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.177Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.177Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08821d"
+  },
+  "guard_name": "web",
+  "name": "lunch-submission_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.191Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.191Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08821e"
+  },
+  "guard_name": "web",
+  "name": "lunch-submission_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.206Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.206Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08821f"
+  },
+  "guard_name": "web",
+  "name": "lunch-submission_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.219Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.219Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088220"
+  },
+  "guard_name": "web",
+  "name": "transport-submission_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.233Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.233Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088221"
+  },
+  "guard_name": "web",
+  "name": "transport-submission_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.248Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.248Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088222"
+  },
+  "guard_name": "web",
+  "name": "transport-submission_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.261Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.261Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088223"
+  },
+  "guard_name": "web",
+  "name": "activity_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.276Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.276Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088224"
+  },
+  "guard_name": "web",
+  "name": "activity_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.290Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.290Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088225"
+  },
+  "guard_name": "web",
+  "name": "activity_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.307Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.307Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088226"
+  },
+  "guard_name": "web",
+  "name": "pre-enrolment_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.322Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.322Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088227"
+  },
+  "guard_name": "web",
+  "name": "pre-enrolment_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.339Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.339Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088228"
+  },
+  "guard_name": "web",
+  "name": "pre-enrolment_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.354Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.354Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088229"
+  },
+  "guard_name": "web",
+  "name": "particular_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.369Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.369Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08822a"
+  },
+  "guard_name": "web",
+  "name": "particular_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.386Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.386Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08822b"
+  },
+  "guard_name": "web",
+  "name": "particular_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.402Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.402Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08822c"
+  },
+  "guard_name": "web",
+  "name": "charge_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.418Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.418Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08822d"
+  },
+  "guard_name": "web",
+  "name": "charge_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.433Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.433Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08822e"
+  },
+  "guard_name": "web",
+  "name": "charge_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.449Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.449Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc08822f"
+  },
+  "guard_name": "web",
+  "name": "invoice_read",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.465Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.465Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088230"
+  },
+  "guard_name": "web",
+  "name": "invoice_write",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.481Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.481Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65fd74553b1d8071bc088231"
+  },
+  "guard_name": "web",
+  "name": "invoice_create",
+  "updated_at": {
+    "$date": "2024-03-22T12:06:45.498Z"
+  },
+  "created_at": {
+    "$date": "2024-03-22T12:06:45.498Z"
+  },
+  "role_ids": [
+    "65fd74543b1d8071bc08820d"
+  ]
+}]

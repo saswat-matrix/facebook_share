@@ -1,0 +1,102 @@
+
+
+/* list tools start */
+
+a, .btn-icon {
+  color: #339DE4;
+}
+.btn-icon {
+	background-color: rgba(51, 157, 228, 0.16) !important;
+}
+
+
+.row.top-tools { justify-content: flex-end; }
+
+.btn-primary {background-color: #339DE4; border-color: #339DE4;}
+.btn-primary:hover {background-color: #D0546E!important; border-color: #D0546E!important;}
+
+.form-control:focus, .form-select:focus,
+.btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary.focus
+ {border-color: #339DE4; box-shadow: 0 0 0.25rem 0.05rem rgba(51, 157, 228, 0.1);}
+
+.list-tools { display: flex; flex-wrap: wrap; justify-content: flex-end; }
+
+.list-tools .input-group { width: auto; }
+.list-tools .btn { padding: 5px 10px; }
+
+.border-radius-right {border-radius: 0 0.375rem 0.375rem 0 !important;}
+.border-radius {border-radius: 0.375rem !important;}
+
+.search-container { display: flex;  }
+
+/* list tools end */
+
+
+
+/* global style start */
+
+.app-brand .layout-menu-toggle 
+{background-color: #339DE4!important;}
+
+.bg-menu-theme .menu-sub > .menu-item.active > .menu-link:not(.menu-toggle)::before,
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active,
+.btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:hover, .form-check-input:checked,
+.btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary.focus
+ {background-color: #339DE4!important;}
+
+.bg-menu-theme .menu-inner > .menu-item.active > .menu-link {color: #339DE4; background-color: rgba(51, 157, 228, 0.16) !important;}
+.bg-menu-theme .menu-inner > .menu-item.active::before {background: #339DE4;}
+
+
+.text-primary, .btn-outline-primary {color: #339DE4 !important;}
+
+.btn-outline-primary,
+.btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active,
+.btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:hover, .form-check-input:checked,
+.btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary.focus
+ {border-color: #339DE4 !important;}
+
+ .right-link {float: right;}
+
+/* global style end */
+
+
+
+
+/* responsive start */
+
+@media (max-width: 1199px) {
+
+.row.top-tools .col-sm-6 { width: 80%; }
+
+}
+
+@media (max-width: 991px) {
+
+.row.top-tools .col-sm-6 { width: 100%; }
+
+}
+
+@media (max-width: 767px) {
+
+.list-tools .input-group {width: 40%;}
+
+
+}
+
+
+@media (max-width: 479px) {
+
+.list-tools .input-group {width: 100%;}
+
+.list-tools .dt-buttons { padding-top: 15px; }
+
+.list-tools .add-new .d-none {display: inline-block!important;}
+
+
+}
+
+/* responsive end */
