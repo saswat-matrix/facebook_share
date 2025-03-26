@@ -21,5 +21,22 @@ Route::group(['prefix' => ''], function () {
     //Route::get('/', [ 'as'    => 'admin.login', 'uses' => 'LoginController@index' ]);
 
     Route::get('/', 'FacebookShareController@view')->name('facebook.view');
-    Route::post('/post', 'FacebookShareController@post')->name('facebook.post');    
+    Route::get('/post-image-to-facebook', 'FacebookShareController@postImageToFacebookUsingGuzzleHttp')->name('facebook.post-image-to-facebook');
+    Route::post('/post-image-to-facebook', 'FacebookShareController@postImageToFacebookUsingGuzzleHttp')->name('facebook.post-image-to-facebook');
+
+
+
+    Route::get('/facebook-login', 'FacebookShareController@login')->name('facebook.login');
+    Route::post('/facebook-login', 'FacebookShareController@login')->name('facebook.login');
+
+    Route::get('/facebook-login-callback-redirect', 'FacebookShareController@loginRedirectCallback')->name('facebook.login-callback-redirect');
+    Route::post('/facebook-login-callback-redirect', 'FacebookShareController@loginRedirectCallback')->name('facebook.login-callback-redirect');
+
+    Route::get('/facebook-post', 'FacebookShareController@post')->name('facebook.post');
+    Route::post('/facebook-post', 'FacebookShareController@post')->name('facebook.post');
+
+    Route::get('/facebook-page-access-token', 'FacebookShareController@PageAccessToken')->name('facebook.page-access-token');
+    Route::post('/facebook-page-access-token', 'FacebookShareController@PageAccessToken')->name('facebook.page-access-token');
+
+    Route::get('/clear-sessions', 'FacebookShareController@clearSessions')->name('facebook.clear-sessions');
 });

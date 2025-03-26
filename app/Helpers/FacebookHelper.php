@@ -5,6 +5,8 @@ use RecursiveDirectoryIterator, RecursiveIteratorIterator;
 
 use Facebook\Facebook;
 
+use Globals;
+
 class FacebookHelper {
 
     public function postImage(Request $request)

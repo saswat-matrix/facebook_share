@@ -49,7 +49,7 @@
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <img src="https://cdn11.bigcommerce.com/s-x49po/products/48245/images/281002/1580321131335_Kshatrani__85751.1687415112.500.659.jpg?c=2" style="height: 300px;"/>
                                     <br/>
-                                    This is a sample art for Facebook Sharing.
+                                    This is a sample art for Facebook Sharing. <a href="{{route('facebook.post')}}">Share To Facebook</a>
                                 </div>
                             </div>
                         </div>
