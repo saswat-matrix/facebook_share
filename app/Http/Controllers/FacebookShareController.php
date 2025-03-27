@@ -8,6 +8,8 @@ use GuzzleHttp\Client;
 
 use Config, Globals, Session;
 
+use App\Helpers\FacebookHelper;
+
 class FacebookShareController extends Controller
 {
 
@@ -134,61 +136,7 @@ class FacebookShareController extends Controller
         }
     }
 
-    public function login()
-    {
-        $facebookappId          = Config::get('facebook.app_id');
-        $facebookappSecret      = Config::get('facebook.app_secret');
-        $facebookAuthUrl        = Config::get('facebook.auth_uri');
-        $facebookRedirectUrl    = Config::get('facebook.redirect_uri');
-        //$facebookPageId         = 'your-page-id'; // Replace with your Facebook Page ID
-
-        $buildQuery             = array(
-                                    'client_id'         => $facebookappId,
-                                    'redirect_uri'      => $facebookRedirectUrl,
-                                    'scope'             => 'email,public_profile', // Add other permissions if needed
-                                    'response_type'     => 'code'
-                                );
-        $client                 = new Client();
-        $facebookLoginurl       = $facebookAuthUrl . '?' . http_build_query($buildQuery);
-        return redirect()->to($facebookLoginurl);
-    }
-
-    public function loginRedirectCallback(Request $request)
-    {
-        $facebookappId          = Config::get('facebook.app_id');
-        $facebookappSecret      = Config::get('facebook.app_secret');
-        $facebookAuthUrl        = Config::get('facebook.auth_uri');
-        $facebookAccessTokenUrl = Config::get('facebook.access_token_uri');
-        $facebookRedirectUrl    = Config::get('facebook.redirect_uri');
-        //$facebookPageId         = 'your-page-id'; // Replace with your Facebook Page ID
-
-        $code = $request->input('code');
-        if (!$code) {
-            return redirect()->route('facebook.view')->with('error', 'Authorization failed.');
-        }
-
-        $postData               = array(
-                                        'client_id'         => $facebookappId,
-                                        'client_secret'     => $facebookappSecret,
-                                        'redirect_uri'      => $facebookRedirectUrl,                                        
-                                        'code'              => $code
-                                    );
-        $guzzleParams           = array('form_params' => $postData);
-
-        // Use Guzzle to make a request to exchange the code for an access token
-        $guzzleClient           = new Client();
-        $response               = $guzzleClient->post($facebookAccessTokenUrl, $guzzleParams);
-        $data                   = json_decode($response->getBody(), true);
-        $accessToken            = $data['access_token'];
-
-        // Store access token in session
-        Session::put('facebook_access_token', $accessToken);
-
-        // Redirect back to post
-        return redirect()->route('facebook.post');
-    }
-
-    public function pageAccessToken(Request $request)
+        public function pageAccessToken(Request $request)
     {
         $facebookappId          = Config::get('facebook.app_id');
         $facebookappSecret      = Config::get('facebook.app_secret');
@@ -235,48 +183,61 @@ class FacebookShareController extends Controller
         //return redirect()->route('facebook.post');
     }
 
+    public function login()
+    {
+        $facebookappId          = Config::get('facebook.app_id');
+        $facebookappSecret      = Config::get('facebook.app_secret');
+        $facebookAuthUrl        = Config::get('facebook.auth_uri');
+        $facebookRedirectUrl    = Config::get('facebook.redirect_uri');
+        $buildQuery             = array(
+                                    'client_id'         => $facebookappId,
+                                    'redirect_uri'      => $facebookRedirectUrl,
+                                    'scope'             => 'email,public_profile,user_posts', // Add other permissions if needed
+                                    'response_type'     => 'code'
+                                );
+        $client                 = new Client();
+        $facebookLoginurl       = $facebookAuthUrl . '?' . http_build_query($buildQuery);
+        return redirect()->to($facebookLoginurl);
+    }
+
+    public function loginRedirectCallback(Request $request)
+    {
+        $facebookappId          = Config::get('facebook.app_id');
+        $facebookappSecret      = Config::get('facebook.app_secret');
+        $facebookAuthUrl        = Config::get('facebook.auth_uri');
+        $facebookAccessTokenUrl = Config::get('facebook.access_token_uri');
+        $facebookRedirectUrl    = Config::get('facebook.redirect_uri');
+        $code                   = $request->input('code');
+        if (!$code) {
+            return redirect()->route('facebook.view')->with('error', 'Authorization failed.');
+        } else {
+            $getFacebookAppAccessToken = FacebookHelper::fetchAppAccessToken($code);
+            if($getFacebookAppAccessToken) {
+                return redirect()->route('facebook.post');
+            } else {
+
+            }
+            // Redirect back to post
+            return redirect()->route('facebook.post');
+        }        
+    }
+
     public function post(Request $request)
     {  
         try
         {
             Session::put('facebook_action', Globals::ACTION_IMAGE_POST);
-            $facebookAccessToken    = 'EAATu93LlcfUBO7LaqTrZBZAFOSCYSmnZBz3MsfbKHw9ZCXfPfJTgS5KoVk3Ojoiuv9bSIEGWFZBgqKDFIgq2rsDh96To8IQvtehPdxubrXW2ovJWH4Km7jahRJ72zK2SNYnZAtxPYwCAF1xhzZCc8yzfZAzxGyJSpTNVIwQFX8J4pdE2UEXTvjbA8AQkmkpxoHWeqpFftNiJWZAI3JsFYcZA9lUptppvG6IzgoEJUqskMZD'; //Bhubaneswar bliss page //Session::get('facebook_access_token');
+            $appbookAccessToken    = 'EAATu93LlcfUBO7P37cYLKG9WUTnWQaJ24bmRsKVE1XXOL8h0UGgoVdmR1Jlk4HwVgqjiXPZAsnlLzvBcocPWb6DHzZAeYKJwc04QDTFjUlBIyYWliUN46bcx7H581yJBefSF33t1kimohWkJfiTnZAldngXJIzEpBIhbjaYrxe4yCCDOzIzlGmOPw6XO7CNKIlvILfDl7Tr9e8JFgZDZD'; //Session::get('facebook_app_access_token');
 
-            if ($facebookAccessToken) {
+            if ($appbookAccessToken) {
                 // If access token exists, make a post request to Facebook
-                $message            = $request->input('message', 'Hello, World!');
-                $queryData          = array('access_token' => $facebookAccessToken);
-                $postData           = array(
-                                            //'source'    => $fb->fileToUpload(storage_path('app/' . $imagePath)), // Path to the image file
-                                            'message'   => 'Your caption here', // Optional caption
-                                        );
-                $guzzleParams       = array(
-                                            'query'       => $queryData
-                                        );
-
-                $facebookUrl        = 'https://graph.facebook.com/v22.0/102665917811113/feed';  // Use your page id if posting to a page, not 'me' for user feed'
-                //'https://graph.facebook.com/v22.0/102665917811113'
-                //https://github.com/Nazmul7989/laravel-facebook-post
-                //https://dev.to/johnmaths9/how-to-implement-login-with-facebook-in-laravel-2m5p
-
-                // Initialize Guzzle client
-                $guzzleClient       = new Client();
-                $response           = $guzzleClient->post($facebookUrl, $queryData);
-
-                $data               = json_decode($response->getBody()->getContents(), true);
-
-                print_r($data); die();
-
-                if (isset($data['id'])) {
-                    return redirect()->back()->with('status', 'Post successful!');
-                } else {
-                    return redirect()->back()->with('error', 'Post failed!');
-                }
+                //$userDetail  = FacebookHelper::userDetail();
+                $postDetail  = FacebookHelper::post();
+                die();                
             } else {
                 return redirect()->route('facebook.login');
             }
             return view('view');
-            //https://tijana-sokovic.medium.com/post-on-facebook-page-with-graph-api-and-laravel-d31a8dd6e5c3
         }
         catch(\Exception $e)             // catch block of the try-catch exception
         {
@@ -284,21 +245,10 @@ class FacebookShareController extends Controller
             $error_code       = $e->getCode();                          // get error code
             $error_location   = 'Line No. ' . $e->getLine() . ' in file ' . $e->getFile();    // get error line number and file
             $error            = 'Error Code:- ' . $error_code . '| Error Message:- '. $error_message . '| Error Location:- ' . $error_location; //die;
-            /*try
-            {
-                $miscObj          = New Misc;
-                $errorSaved       = $miscObj->saveExceptionReport($error);
-            }
-            catch(\Exception $exp)             // catch block of the try-catch exception
-            {
-                $error            .= '| Error Code:- ' . $exp->getCode() . '| Error Message:- '. $exp->getMessage() . '| Error Location:- ' . 'Line No. ' . $exp->getLine() . ' in file ' . $exp->getFile(); //die;
-            }*/
             if(Globals::SHOW_EXCEPTION == 0){
                 $error        = Globals::DEFAULT_EXCEPTION_MESSAGE; //die;
             }
             echo $error;
-            //$back = route('admin.dashboard');
-            //return Redirect::Route('error.exception')->with(array('error' => $error, 'back'  => $back));     // redirect with exception messages
         }      
     }
 
@@ -307,9 +257,7 @@ class FacebookShareController extends Controller
     {  
         try
         {
-            echo Config::get('facebook.redirect_uri');
-            return view('view');
-            //https://tijana-sokovic.medium.com/post-on-facebook-page-with-graph-api-and-laravel-d31a8dd6e5c3
+            return view('view');            
         }
         catch(\Exception $e)             // catch block of the try-catch exception
         {
@@ -317,21 +265,14 @@ class FacebookShareController extends Controller
             $error_code       = $e->getCode();                          // get error code
             $error_location   = 'Line No. ' . $e->getLine() . ' in file ' . $e->getFile();    // get error line number and file
             $error            = 'Error Code:- ' . $error_code . '| Error Message:- '. $error_message . '| Error Location:- ' . $error_location; //die;
-            /*try
-            {
-                $miscObj          = New Misc;
-                $errorSaved       = $miscObj->saveExceptionReport($error);
-            }
-            catch(\Exception $exp)             // catch block of the try-catch exception
-            {
-                $error            .= '| Error Code:- ' . $exp->getCode() . '| Error Message:- '. $exp->getMessage() . '| Error Location:- ' . 'Line No. ' . $exp->getLine() . ' in file ' . $exp->getFile(); //die;
-            }*/
             if(Globals::SHOW_EXCEPTION == 0){
                 $error        = Globals::DEFAULT_EXCEPTION_MESSAGE; //die;
             }
             echo $error;
-            $back = route('admin.dashboard');
-            return Redirect::Route('error.exception')->with(array('error' => $error, 'back'  => $back));     // redirect with exception messages
+            //https://tijana-sokovic.medium.com/post-on-facebook-page-with-graph-api-and-laravel-d31a8dd6e5c3
+            //'https://graph.facebook.com/v22.0/102665917811113'
+            //https://github.com/Nazmul7989/laravel-facebook-post
+            //https://dev.to/johnmaths9/how-to-implement-login-with-facebook-in-laravel-2m5p
         }      
     }
 

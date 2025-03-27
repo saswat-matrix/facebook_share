@@ -4,10 +4,90 @@ namespace App\Helpers;
 use RecursiveDirectoryIterator, RecursiveIteratorIterator;
 
 use Facebook\Facebook;
+use GuzzleHttp\Client;
 
-use Globals;
+use Config, Globals, Session;
 
 class FacebookHelper {
+
+
+    public static function fetchAppAccessToken($code) {
+
+        $appId          = Config::get('facebook.app_id');
+        $appSecret      = Config::get('facebook.app_secret');
+        $authUrl        = Config::get('facebook.auth_uri');
+        $accessTokenUrl = Config::get('facebook.access_token_uri');
+        $redirectUrl    = Config::get('facebook.redirect_uri');
+
+        $postData       = array(
+                            'client_id'         => $appId,
+                            'client_secret'     => $appSecret,
+                            'redirect_uri'      => $redirectUrl,
+                            'code'              => $code
+                        );
+        $guzzleParams   = array('form_params' => $postData);      
+
+        try {
+            $guzzleClient   = new Client();
+            $response       = $guzzleClient->post($accessTokenUrl, $guzzleParams); // Use Guzzle to make a request to exchange the code for an access token
+            $data           = json_decode($response->getBody(), true);
+            $accessToken    = $data['access_token'];
+
+            // Store access token in session
+            Session::put('facebook_app_access_token', $accessToken);
+            return true;
+        } catch(\Exceptions $e) {
+            return false;
+        }
+    }
+
+    public static function userDetail() {
+
+        $appAccessToken    = Session::get('facebook_app_access_token');
+        $userDetailUrl     = 'https://graph.facebook.com/v22.0/me?access_token=' . $appAccessToken;  // Use your page id if posting to a page, not 'me' for user feed'
+        try {
+            // Initialize Guzzle client
+            $guzzleClient       = new Client();
+            $response           = $guzzleClient->get($userDetailUrl);
+            $data               = json_decode($response->getBody()->getContents(), true);
+            print_r($data);
+            if (isset($data['id'])) {
+                Session::put('facebook_user_id', $data['id']);
+                return true;
+            } else {
+                return false;
+            }
+        } catch(\Exceptions $e) {
+            return false;
+        }
+    }
+
+
+    public static function post() {
+
+        $appAccessToken    = Session::get('facebook_app_access_token');
+        $postUrl = 'https://graph.facebook.com/v22.0/me/feed';
+
+    $postData = [
+        'message' => 'Test',
+        'access_token' => $appAccessToken
+    ];
+
+    try {
+        $guzzleClient = new Client();
+        $response = $guzzleClient->post($postUrl, ['form_params' => $postData]);
+            $data               = json_decode($response->getBody()->getContents(), true);
+            print_r($data);
+            if (isset($data['id'])) {
+                Session::put('facebook_user_id', $data['id']);
+                return true;
+            } else {
+                return false;
+            }
+        } catch(\Exceptions $e) {
+            return false;
+        }
+    }
 
     public function postImage(Request $request)
     {
