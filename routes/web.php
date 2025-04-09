@@ -39,4 +39,17 @@ Route::group(['prefix' => ''], function () {
     Route::post('/facebook-page-access-token', 'FacebookShareController@PageAccessToken')->name('facebook.page-access-token');
 
     Route::get('/clear-sessions', 'FacebookShareController@clearSessions')->name('facebook.clear-sessions');
+
+    Route::group(['prefix' => 'linked-in'], function () {
+        // linked in
+        Route::get('/', 'LinkedInController@index')->name('linked-in.index');
+        Route::get('/authorization', 'LinkedInController@authorization')->name('linked-in.authorization');
+        Route::get('/authorization', 'LinkedInController@authorization')->name('linked-in.authorization');
+        Route::get('/redirection', 'LinkedInController@redirection')->name('linked-in.redirection');
+        Route::post('/redirection', 'LinkedInController@redirection')->name('linked-in.redirection');
+
+        Route::get('/post', 'LinkedInController@post')->name('linked-in.post');
+        Route::post('/post', 'LinkedInController@post')->name('linked-in.post');
+    });
+
 });

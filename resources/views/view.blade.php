@@ -45,13 +45,32 @@
                                 <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Sample Art</a></div>
                             </div>
 
-                            <div class="ml-12">
+                            <div class="ml-4">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
                                     <img src="https://cdn11.bigcommerce.com/s-x49po/products/48245/images/281002/1580321131335_Kshatrani__85751.1687415112.500.659.jpg?c=2" style="height: 300px;"/>
                                     <br/>
-                                    This is a sample art for Facebook Sharing. <a href="{{route('facebook.post')}}">Share To Facebook</a>
+                                    This is a sample art for Facebook Sharing. 
                                     <a href="https://www.facebook.com/dialog/share?app_id={{env('FACEBOOK_APP_ID')}}&display=popup&href=https://cdn11.bigcommerce.com/s-x49po/products/48245/images/281002/1580321131335_Kshatrani__85751.1687415112.500.659.jpg?c=2&redirect_uri=https://www.fizdi.com">Share on Facebook</a>
                                 </div>
+
+                                <table style="width: 100%" border="1">
+                                        <thead>
+                                            <tr>
+                                                <td colspan="3">Social Media Share</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="2">Facebook</td>
+                                                <td><a href="{{route('facebook.post')}}">Share To Facebook</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">LinkedIn</td>
+                                                <td><a href="{{route('linked-in.authorization')}}">Share To LinkedIn</a></td>
+                                            </tr>
+                                        </tbody>
+
+                                </table>
                             </div>
                         </div>
                     </div>
