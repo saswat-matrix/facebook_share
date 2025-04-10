@@ -7,14 +7,21 @@ use Config, Globals, Session;
 
 class LinkedInHelper {
 
-
+    /**************************************************/
+    # Function to fetch access token from Linked-In
+    # Function name    : fetchAppAccessToken
+    # Author           : Saswat Routroy
+    # Created Date     : 30-09-2020
+    # Purpose          : Get access token
+    # Params           : $code
+    /**************************************************/
     public static function fetchAppAccessToken($code) {
 
-        $clientId          = Config::get('linkedin.client_id');
-        $clientSecret      = Config::get('linkedin.client_secret');
-        $authUrl           = Config::get('linkedin.auth_uri');
-        $accessTokenUrl    = Config::get('linkedin.access_token_uri');
-        $redirectUrl       = Config::get('linkedin.redirect_uri');
+        $clientId       = Config::get('linkedin.client_id');
+        $clientSecret   = Config::get('linkedin.client_secret');
+        $authUrl        = Config::get('linkedin.auth_uri');
+        $accessTokenUrl = Config::get('linkedin.access_token_uri');
+        $redirectUrl    = Config::get('linkedin.redirect_uri');
 
         $postData       = array(
                             'client_id'         => $clientId,
@@ -39,6 +46,14 @@ class LinkedInHelper {
         }
     }
 
+    /**********************************************************************/
+    # Function to fetch organization urk
+    # Function name    : fetchOrganizationUrn
+    # Author           : Saswat Routroy
+    # Created Date     : 30-09-2020
+    # Purpose          : Get organization urn to post to organization page
+    # Params           : $code
+    /**********************************************************************/
     public static function fetchOrganizationUrn() {
         $appAccessToken    = Session::get('linkedin_app_access_token');
         /*response = Http::withToken($accessToken)
@@ -49,70 +64,82 @@ class LinkedInHelper {
             ]);*/
 
         $linkedInOrganizationUrnUrl = Config::get('linkedin.organization_urn_uri');
-        $headers        = array(
-                            'Authorization' => 'Bearer ' . $appAccessToken,
-                            'Accept'        => 'application/json',
-                        );
-        $query         = array(
-                            'q'         => 'roleAssignee',
-                            'role'      => 'ADMINISTRATOR',
-                            'state'     => 'APPROVED',
-                        );
-        $client         = new Client();
-        $response       = $client->get($linkedInOrganizationUrnUrl, array(
-                                                                    'headers' => $headers,
-                                                                    'query' => $query
-                                                                ));
-
-        echo "No Test Last";
-
-        print_r($response);
-        //$organizationId = $response['elements'][0]['organization']; // example: urn:li:organization:123456
-    }
-
-    public static function userDetail() {
-
-        $appAccessToken    = Session::get('facebook_app_access_token');
-        $userDetailUrl     = 'https://graph.facebook.com/v22.0/me?access_token=' . $appAccessToken;  // Use your page id if posting to a page, not 'me' for user feed'
+        $headers    = array(
+                        'Authorization' => 'Bearer ' . $appAccessToken,
+                        'Accept'        => 'application/json',
+                    );
+        $query      = array(
+                        'q'         => 'roleAssignee',
+                        'role'      => 'ADMINISTRATOR',
+                        'state'     => 'APPROVED',
+                    );
         try {
-            // Initialize Guzzle client
-            $guzzleClient       = new Client();
-            $response           = $guzzleClient->get($userDetailUrl);
-            $data               = json_decode($response->getBody()->getContents(), true);
-            print_r($data);
-            if (isset($data['id'])) {
-                Session::put('facebook_user_id', $data['id']);
-                return true;
-            } else {
-                return false;
+            $client         = new Client();
+            $response       = $client->get($linkedInOrganizationUrnUrl, array(
+                                                                        'headers' => $headers,
+                                                                        'query' => $query
+                                                                    ));
+
+            $body = json_decode($response->getBody(), true);
+            if(isset($body) && !empty($body)) {
+                if(isset($body['elements']) && !empty($body['elements'])) {
+                    $organizations = $body['elements'];
+                    if(count($organizations) > 0) {
+                        $organizationId = $organizations[0]['organization'];
+                        Session::put('linkedin_organization_id', $organizationId);
+                    } else {
+                        echo "Not admin of any page";
+                    }                
+                } else {
+                    echo "No access";
+                }
             }
-        } catch(\Exceptions $e) {
+            echo "<pre>";
+            print_r($body); echo "test";
+        }  catch(\Exceptions $e) {
             return false;
         }
     }
 
-
+    /**********************************************************************/
+    # Function to post to organization page
+    # Function name    : post
+    # Author           : Saswat Routroy
+    # Created Date     : 30-09-2020
+    # Purpose          : post to organization page
+    # Params           : $code
+    /**********************************************************************/
     public static function post() {
+        $organizationId = Session::get('linkedin_organization_id');
+        $postUrl        = Config::get('linkedin.organization_post_uri');
+        $headers        = array(
+                            'Authorization' => 'Bearer ' . $appAccessToken,
+                            'Accept'        => 'application/json',
+                        );
+        $postParamas    = array(
+                            'author'            => $organizationId, // ex: 'urn:li:organization:123456'
+                            'lifecycleState'    => 'PUBLISHED',
+                            'specificContent'   => array(
+                                                    'com.linkedin.ugc.ShareContent' => array(
+                                                                                        'shareCommentary' => array(
+                                                                                                                'text' => 'Hello LinkedIn from Laravel! 🚀',
+                                                                                                            ),
+                                                                                        'shareMediaCategory' => 'NONE',
+                                                                                    ),
+                                                ),
+                            'visibility'        => array(
+                                                    'com.linkedin.ugc.MemberNetworkVisibility' => 'PUBLIC',
+                                                ),
+                        );
+        try {
+            $client         = new Client();
+            $response       = $client->get($postUrl, array(
+                                                        'headers'   => $headers,
+                                                        'body'      => $postParamas
+                                                    ));
 
-        $appAccessToken    = Session::get('facebook_app_access_token');
-        $postUrl = 'https://graph.facebook.com/v22.0/me/feed';
-
-    $postData = [
-        'message' => 'Test',
-        'access_token' => $appAccessToken
-    ];
-
-    try {
-        $guzzleClient = new Client();
-        $response = $guzzleClient->post($postUrl, ['form_params' => $postData]);
-            $data               = json_decode($response->getBody()->getContents(), true);
-            print_r($data);
-            if (isset($data['id'])) {
-                Session::put('facebook_user_id', $data['id']);
-                return true;
-            } else {
-                return false;
-            }
+            $data           = json_decode($response->getBody(), true);
+            //$organizationId = $response['elements'][0]['organization']; // example: urn:li:organization:123456
         } catch(\Exceptions $e) {
             return false;
         }

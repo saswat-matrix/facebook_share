@@ -43,7 +43,7 @@ class LinkedInController extends Controller
         $buildQuery             = array(
                                     'client_id'         => $linkedIdClientId,
                                     'redirect_uri'      => $linkedIdRedirectUrl,
-                                    'scope'             => 'w_member_social', //'w_member_social+w_organization_social+rw_organization_admin', // Add other permissions if needed
+                                    'scope'             => 'w_member_social w_organization_social rw_organization_admin', //'w_member_social w_organization_social rw_organization_admin', // Add other permissions if needed
                                     //openid%20profile%20email
                                     'response_type'     => 'code'
                                 );
