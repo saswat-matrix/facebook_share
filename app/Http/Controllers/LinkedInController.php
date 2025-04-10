@@ -54,14 +54,9 @@ class LinkedInController extends Controller
 
     public function redirection(Request $request)
     {
-        $facebookappId          = Config::get('facebook.app_id');
-        $facebookappSecret      = Config::get('facebook.app_secret');
-        $facebookAuthUrl        = Config::get('facebook.auth_uri');
-        $facebookAccessTokenUrl = Config::get('facebook.access_token_uri');
-        $facebookRedirectUrl    = Config::get('facebook.redirect_uri');
         $code                   = $request->input('code');
         if (!$code) {
-            return redirect()->route('facebook.view')->with('error', 'Authorization failed.');
+            return redirect()->route('lonked-in.view')->with('error', 'Authorization failed.');
         } else {
             $getLinkedInAppAccessToken = LinkedInHelper::fetchAppAccessToken($code);
             if($getLinkedInAppAccessToken) {
@@ -69,8 +64,6 @@ class LinkedInController extends Controller
             } else {
 
             }
-            // Redirect back to post
-            return redirect()->route('facebook.post');
         }        
     }
 
@@ -79,14 +72,15 @@ class LinkedInController extends Controller
         try
         {
             $appAccessToken  = Session::get('linkedin_app_access_token');
-
-            if ($appAccessToken) {
+            if($appAccessToken) {
                 // If access token exists, make a post request to Facebook
                 //$userDetail  = FacebookHelper::userDetail();
-                $postDetail  = LinkedInHelper::fetchOrganizationUrn();
-                die();                
+                $organizationUrn  = LinkedInHelper::fetchOrganizationUrn();
+                if($organizationUrn) {
+                    LinkedInHelper::post();
+                }                           
             } else {
-                return redirect()->route('facebook.login');
+                
             }
             return view('view');
         }

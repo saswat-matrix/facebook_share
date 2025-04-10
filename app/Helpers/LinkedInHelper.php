@@ -37,7 +37,6 @@ class LinkedInHelper {
             $response       = $guzzleClient->post($accessTokenUrl, $guzzleParams); // Use Guzzle to make a request to exchange the code for an access token
             $data           = json_decode($response->getBody(), true);
             $accessToken    = $data['access_token'];
-
             // Store access token in session
             Session::put('linkedin_app_access_token', $accessToken);
             return true;
@@ -56,13 +55,6 @@ class LinkedInHelper {
     /**********************************************************************/
     public static function fetchOrganizationUrn() {
         $appAccessToken    = Session::get('linkedin_app_access_token');
-        /*response = Http::withToken($accessToken)
-            ->get('https://api.linkedin.com/v2/organizationAcls', [
-                'q' => 'roleAssignee',
-                'role' => 'ADMINISTRATOR',
-                'state' => 'APPROVED',
-            ]);*/
-
         $linkedInOrganizationUrnUrl = Config::get('linkedin.organization_urn_uri');
         $headers    = array(
                         'Authorization' => 'Bearer ' . $appAccessToken,
@@ -87,6 +79,7 @@ class LinkedInHelper {
                     if(count($organizations) > 0) {
                         $organizationId = $organizations[0]['organization'];
                         Session::put('linkedin_organization_id', $organizationId);
+                        return true;
                     } else {
                         echo "Not admin of any page";
                     }                
@@ -94,8 +87,6 @@ class LinkedInHelper {
                     echo "No access";
                 }
             }
-            echo "<pre>";
-            print_r($body); echo "test";
         }  catch(\Exceptions $e) {
             return false;
         }
@@ -110,11 +101,14 @@ class LinkedInHelper {
     # Params           : $code
     /**********************************************************************/
     public static function post() {
+        $appAccessToken = Session::get('linkedin_app_access_token');
         $organizationId = Session::get('linkedin_organization_id');
         $postUrl        = Config::get('linkedin.organization_post_uri');
         $headers        = array(
-                            'Authorization' => 'Bearer ' . $appAccessToken,
-                            'Accept'        => 'application/json',
+                            'Authorization'             => 'Bearer ' . $appAccessToken,
+                            'Accept'                    => 'application/json',                            
+                            'Content-Type'              => 'application/json',
+                            'X-Restli-Protocol-Version' => '2.0.0',
                         );
         $postParamas    = array(
                             'author'            => $organizationId, // ex: 'urn:li:organization:123456'
@@ -122,7 +116,7 @@ class LinkedInHelper {
                             'specificContent'   => array(
                                                     'com.linkedin.ugc.ShareContent' => array(
                                                                                         'shareCommentary' => array(
-                                                                                                                'text' => 'Hello LinkedIn from Laravel! 🚀',
+                                                                                                                'text' => 'In order to improvize our business aspects further, we are implementing some models and features. This message is a testing of one such model. Please ignore this post. Thank you',
                                                                                                             ),
                                                                                         'shareMediaCategory' => 'NONE',
                                                                                     ),
@@ -133,12 +127,13 @@ class LinkedInHelper {
                         );
         try {
             $client         = new Client();
-            $response       = $client->get($postUrl, array(
-                                                        'headers'   => $headers,
-                                                        'body'      => $postParamas
+            $response       = $client->post($postUrl, array(
+                                                        'headers'       => $headers,
+                                                        'json'          => $postParamas
                                                     ));
 
             $data           = json_decode($response->getBody(), true);
+            print_r($data); die();
             //$organizationId = $response['elements'][0]['organization']; // example: urn:li:organization:123456
         } catch(\Exceptions $e) {
             return false;
