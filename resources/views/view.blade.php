@@ -47,7 +47,7 @@
 
                             <div class="ml-4">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    <img src="https://cdn11.bigcommerce.com/s-x49po/products/48245/images/281002/1580321131335_Kshatrani__85751.1687415112.500.659.jpg?c=2" style="height: 300px;"/>
+                                    <img src="https://cdn.pixabay.com/photo/2017/03/27/16/50/beach-2179624_640.jpg" style="height: 300px;"/>
                                     <br/>
                                     This is a sample art for Facebook Sharing. 
                                     <a href="https://www.facebook.com/dialog/share?app_id={{env('FACEBOOK_APP_ID')}}&display=popup&href=https://cdn11.bigcommerce.com/s-x49po/products/48245/images/281002/1580321131335_Kshatrani__85751.1687415112.500.659.jpg?c=2&redirect_uri=https://www.fizdi.com">Share on Facebook</a>
