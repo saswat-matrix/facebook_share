@@ -56,7 +56,7 @@ class LinkedInController extends Controller
     {
         $code                   = $request->input('code');
         if (!$code) {
-            return redirect()->route('lonked-in.view')->with('error', 'Authorization failed.');
+            return redirect()->route('linked-in.view')->with('error', 'Authorization failed.');
         } else {
             $getLinkedInAppAccessToken = LinkedInHelper::fetchAppAccessToken($code);
             if($getLinkedInAppAccessToken) {
