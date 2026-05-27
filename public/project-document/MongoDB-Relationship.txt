@@ -1,1 +1,0 @@
-https://github.com/jenssegers/laravel-mongodb/issues/1839
